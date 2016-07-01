@@ -9,7 +9,7 @@ image-source: "http://www.losandes.com.ar/files/image/2013/11/8/564849.jpg"
 ---
 
 
-<img src="/img/kigaliF.jpg">
+<img src="{{site.github.url}}/img/bra.jpg">
 
 
 Promoting Rwandan culture,fashion,entrepreneurship and Rwandan fashion industry interest
