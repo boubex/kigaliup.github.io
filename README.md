@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Evento
 
 Evento is a minimal, responsive theme for Jekyll. The projects allows people, groups or companies to host and show a list future and past events.
@@ -37,3 +38,6 @@ Access via: [http://localhost:4000](http://localhost:4000)
 ### Copyright and license
 
 It is under [the MIT license](/LICENSE).
+=======
+# kigaliup.github.io
+>>>>>>> bc860c2a43db84f14acff6f3fa8ff55ecdf7de9e
