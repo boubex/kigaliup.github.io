@@ -2,7 +2,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">
+    <a class="site-title" href="{{ site.github.url }}/">
 
 <img src="/up2.png">
 
@@ -23,9 +23,9 @@
         {% for my_page in site.pages %}
           {% if my_page.navigation_title %}
             {% if my_page.button %}
-                <a class="page-link button button-primary" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.navigation_title }}</a>
+                <a class="page-link button button-primary" href="{{ my_page.url | prepend: site.github.url }}">{{ my_page.navigation_title }}</a>
             {% else %}
-                <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.navigation_title }}</a>
+                <a class="page-link" href="{{ my_page.url | prepend: site.github.url }}">{{ my_page.navigation_title }}</a>
             {% endif %}
           {% endif %}
         {% endfor %}

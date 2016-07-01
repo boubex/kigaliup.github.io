@@ -19,7 +19,7 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
 
         {% if blogDate >= currentDate %}
 
-          <a href="{{ post.url | prepend: site.baseurl }}">
+          <a href="{{ post.url | prepend: site.github.url }}">
             {% if post.image %}
             <div class="event-sqaure" style="background-image:url({{site.github.url}}/img/{{post.image}});">
             {% else %}
@@ -44,7 +44,7 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
 
         {% if blogDate < currentDate %}
 
-          <a href="{{ post.url | prepend: site.baseurl }}">
+          <a href="{{ post.url | prepend: site.github.url }}">
             {% if post.image %}
             <div class="event-sqaure" style="background-image:url({{site.github.url}}/img/{{post.image}});">
             {% else %}
