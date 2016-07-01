@@ -23,5 +23,9 @@ markdown: kramdown
 
 #Have to show future posts for future events.
 future: true
+github:
+  url: http://localhost:4000
+
+
 
 permalink: /event/:title.html
