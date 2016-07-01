@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Mutsinzi
+author: Abouba
 title: kigali fashion week
 subtitle: "Tonight I can write the saddest lines"
 image: kigaliF.jpg
