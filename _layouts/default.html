@@ -8,9 +8,9 @@
     {% include header.html %}
 
 {% if page.cover %}
-  <div class="blog-cover" style="background-image:url(/up.jpg);">
+  <div class="blog-cover" style="background-image:url({{site.github.url}}/up.jpg);">
 {% else %}
-  <div class="blog-cover" style="background-image:url(/up.jpg);">
+  <div class="blog-cover" style="background-image:url({{site.github.url}}/up.jpg);">
 {% endif %}
   </div>
   {% if page.cover_credit %}
