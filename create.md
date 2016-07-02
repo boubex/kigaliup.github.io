@@ -15,4 +15,4 @@ send us a picture and a cover illustration for your event and a small note expla
 
 and we will be happy to share your event
 
-bitiabt@gmail.com
+<h1>bitiabt@gmail.com</h1>
