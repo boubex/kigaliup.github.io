@@ -1,11 +1,16 @@
 ---
 layout: page
 navigation_title: About
-title: About upkigali
+
 permalink: /about/
 ---
 
+<h1>about us</h1>
 
-The development of an effective marketing and communications plan is essential for the delivery of a successful event. The key is to match your event concept (the theme, programme, etc) with the appropriate audience (those who will attend or participate in your event). In order to do that, you must have a strong idea of what the event actually offers and to whom. You also need to have an effective plan of action and the necessary resources to implement it.
+<h2>For the peple</h2>
 
-and we will be happy to share your event
+we are bringing to the mass people of kigali a way to follow up on every upcoming and past event happening in kigali
+
+<h2>for event planers</h2>
+
+the mass can give a feedback of every event in the coment section or what they are expectiong to be at the event 
