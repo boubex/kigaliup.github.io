@@ -11,7 +11,14 @@ The development of an effective marketing and communications plan is essential f
 
 and we will be happy to share your event
 
-send a picture flyerof you event and a small note explaning you event
+send a picture and a cover illustration for your event and a small note explaning you event
 
 and we will be happy to share your event
+
+<form action="https://formspree.io/bitiabt@gmail.com"
+      method="POST">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+</form> 
 
