@@ -5,7 +5,7 @@ navigation_title: About
 permalink: /about/
 ---
 
-<h1>about us</h1>
+<h1>About us</h1>
 
 <h2>For the peple</h2>
 
