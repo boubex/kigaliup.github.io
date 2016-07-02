@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Create an event using Evento
+title: Create and market you event with us
 navigation_title: Create Event
 permalink: /create/
 button: true
