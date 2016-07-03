@@ -1,6 +1,5 @@
 ---
 layout: post
-
 title: lambiance best of black music
 image: dj.jpg
 tag: literature
