@@ -23,8 +23,12 @@ markdown: kramdown
 
 #Have to show future posts for future events.
 future: true
-github:
-  url: https://boubex.github.io/kigaliup.github.io
+
+url: upkigali.com
+
+
+
+
 
 
 
