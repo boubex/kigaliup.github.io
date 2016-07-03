@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Abouba
+
 title: ubumuntu art festival
 subtitle: "Tonight I can write the saddest lines"
 image: ubumuntu.jpg
