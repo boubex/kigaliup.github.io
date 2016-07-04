@@ -13,13 +13,7 @@ comments: true;
 <img src="{{site.github.url}}/img/bra.jpg">
 
 
-Promoting Rwandan culture,fashion,entrepreneurship and Rwandan fashion industry interest
 
-
-
-the event was a complete success
-
-here is a few images of the event
 
 
 

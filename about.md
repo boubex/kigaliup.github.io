@@ -5,9 +5,9 @@ navigation_title: About
 permalink: /about/
 ---
 
-<h3>About us</h3>
+<h2>About us</h2>
 
-<h2>For the peple</h2>
+<h2>For the people</h2>
 
 We are bringing to the people of kigali a way to follow up on every upcoming and past event happening in kigali.
 

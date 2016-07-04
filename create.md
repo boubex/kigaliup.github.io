@@ -8,12 +8,29 @@ button: true
 
 <h2>Create and market your event with us</h2>
 
+
+
+
 The development of an effective marketing and communications plan is essential for the delivery of a successful event. The key is to match your event concept (the theme, programme, etc) with the appropriate audience (those who will attend or participate in your event). In order to do that, you must have a strong idea of what the event actually offers and to whom. You also need to have an effective plan of action and the necessary resources to implement it.
 
-and we will be happy to share your event
+<strong>Thus ,What we will cover for you </strong>
 
-send us a picture and a cover illustration for your event and a small note explaning you event
+*-IMAGE OR GRAPHIC DESIGN MADE FOR YOUR EVENT*
 
-and we will be happy to share your event
+*-EVENT PUBLISHING AND MARKETING*
 
+*-EVENT TICKETS PRINTING & SELLING*
+
+*-CUSTOMER FEED BACK*
+ 
+<strong>if you some of the above</strong>
+
+send us your content & illustration  and a small note explaning youre event<strong> & we would happily share your event</strong>
+
+pssss we are fun people  and want to make your event succesfull
+
+
+<strong>Contact us</strong>
 <h1>bitiabt@gmail.com</h1>
+
+<h1>+250787536349</h1>

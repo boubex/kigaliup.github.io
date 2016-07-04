@@ -19,7 +19,10 @@ body {
   -moz-font-feature-settings: "kern" 1;
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
-  font-kerning: normal; }
+  font-kerning: normal; 
+  background-image: url(/bc.jpg);
+   background-attachment: fixed;
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -608,3 +611,6 @@ footer {
   text-decoration: none; }
   .button.button-primary:hover {
     background: #ab82b8; }
+
+
+    
