@@ -19,5 +19,5 @@ comments: true;
 
 An opportunity for thinkers, activists, professionals and leaders in media, technology, innovation and future thinking to engage in workshops and a forward-looking dialogue to foster collaboration and the use of social media to fast-track innovation in education and learning, the creative industry, journalism and communication, content marketing and branding.
 
-more information click here <a href="http://www.ejo.co.rw/summit/"></a>
+more information click here <a href="http://www.ejo.co.rw/summit/">click here</a>
 
