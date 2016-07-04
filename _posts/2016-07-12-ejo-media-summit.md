@@ -15,7 +15,7 @@ comments: true;
 
 <strong>Place: The Monor Hotel
 
-<strong>Entrance fee : early bird 50000 rfw 80000rfw</strong>
+<strong>Entrance fee : early bird 50000 other 80000rfw</strong>
 
 An opportunity for thinkers, activists, professionals and leaders in media, technology, innovation and future thinking to engage in workshops and a forward-looking dialogue to foster collaboration and the use of social media to fast-track innovation in education and learning, the creative industry, journalism and communication, content marketing and branding.
 
