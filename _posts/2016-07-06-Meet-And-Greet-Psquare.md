@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: Meet And Greet
+title: Meet And Greet P-square
 subtitle: "Tonight I can write the saddest lines"
 image: psq.jpg
 tag: literature
