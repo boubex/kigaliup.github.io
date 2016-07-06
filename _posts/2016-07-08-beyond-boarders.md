@@ -12,7 +12,7 @@ comments: true;
 
 <strong> fouse no 11,kg 544 st
 
-<strong>Entrance fee : fre ! </strong>
+<strong>Entrance fee : free ! </strong>
 
 
 host: *kwizera peace*
