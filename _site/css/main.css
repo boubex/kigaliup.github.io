@@ -1,3 +1,11 @@
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+
+
 /**
  * Reset some basic elements
  */
@@ -19,7 +27,7 @@ body {
   -moz-font-feature-settings: "kern" 1;
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
-  font-kerning: normal; 
+  font-kerning: normal;
   background-image: url(/bceid.jpg);
    background-attachment: fixed;
 }
@@ -611,6 +619,3 @@ footer {
   text-decoration: none; }
   .button.button-primary:hover {
     background: #ab82b8; }
-
-
-    
