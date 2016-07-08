@@ -31,3 +31,5 @@ send us your content & illustration  and a small note explaning youre event<stro
 
 
 <strong>Contact us</strong>
+
+<h1>Bitiabt@gmail.com</h1>
