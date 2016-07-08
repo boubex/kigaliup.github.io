@@ -27,10 +27,7 @@ The development of an effective marketing and communications plan is essential f
 
 send us your content & illustration  and a small note explaning youre event<strong> & we would happily share your event</strong>
 
-pssss we are fun people  and want to make your event succesfull
+
 
 
 <strong>Contact us</strong>
-<h1>bitiabt@gmail.com</h1>
-
-<h1>+250787536349</h1>
