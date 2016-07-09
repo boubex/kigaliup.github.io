@@ -10,9 +10,9 @@ comments: true;
 <img src="{{site.github.url}}/img/ejo.jpg">
 
 
-<strong>Time:8:30pm to 10:00 pm</strong>
+<strong>Time:8:30pm to 10:00 pm</strong><br>
 
-<strong>Place: The Manor Hotel</strong>
+<strong>Place: The Manor Hotel</strong><br>
 
 <strong>Entrance fee : early bird 50000 other 80000rfw</strong>
 
