@@ -9,12 +9,8 @@ comments: true;
 
 <img src="{{site.github.url}}/img/fifi.jpg">
 
-<strong>time:11:00pm to 11:00 pm
+<strong>time:11:00pm to 11:00 pm<br>place: Hotel Vanilla Portion Kigali<br>entrance fee : 5000 Rfw to 10000 Rfw !!!
 
-<strong>place: Hotel Vanilla Portion Kigali
-
-<strong>entrance fee : 5000 Rfw to 10000 Rfw !!!
-</strong>
 
 *Fiesta de Verano*
 

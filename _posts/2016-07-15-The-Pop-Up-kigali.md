@@ -12,11 +12,11 @@ comments: true;
 
 
 
-**Time:3:00pm to 10:00 pm**
+<strong>Time:3:00pm to 10:00 pm<br>Place: Pili pili<br>entrance fee : free!!!! </strong>
 
-**Place: Pili pili**
+<strong>Place: Pili pili</strong>
 
-**entrance fee : free!!!!**
+<strong>entrance fee : free!!!! </strong>
 
 The Pop Up Kigali is a one day event gathering**fashion designers and artists** under one roof for an evening of **shopping, beauty, arts, soulful music and great cocktails and tapas**…
 

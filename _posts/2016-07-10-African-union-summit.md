@@ -11,15 +11,16 @@ comments: true;
 
 ![](/img/African.jpg)
 
-**Place: Kigali Convention Center**
+<strong>Place: Kigali Convention Center<br>
+Entrance: by invitation only!!!!!</strong>
 
-**Entrance: by invitation only&nbsp; !!!!!!**
+
 
 don't miss out on the 27th African Union Summit happening in kigali rwanda
 
-this year 2016 marks the year of African human rights with the particular theme of the event which is the **Rights of women**
+this year 2016 marks the year of African human rights with the particular theme of the event which is the <strong>Rights of women</strong>
 
-this 2016 African Union Summit **education,health,speech,security,gender equality and movement**
+this 2016 African Union Summit education,health,speech,security,gender equality and movement
 
 for more information visit there [website](){: .cc-active}
 

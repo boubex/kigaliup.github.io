@@ -11,12 +11,9 @@ comments: true;
 
 <img src="{{site.github.url}}/img/ubumuntu.jpg">
 
-<strong>time:6:00pm to 9:00 pm
+<strong>time:6:00pm to 9:00 pm<br>place: Kigali Memorial Amphitheater<br>entrance fee : Free !!!
 
-<strong>place: Kigali Memorial Amphitheater
 
-<strong>entrance fee : Free !!!
-</strong>
 
 *I AM BECOUSE YOU ARE,YOU ARE BECOUSE I AM,COME,WE ARE HUMAN TOGETHER*
 
