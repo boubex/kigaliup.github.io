@@ -1,26 +1,26 @@
 ---
 layout: post
-
 title: Nyama Coma Extravaganza
-subtitle: 
+subtitle:
 image: ELI.jpg
 tag: literature
 comments: true;
 ---
 
-<img src="{{site.github.url}}/img/ELI.jpg">
 
-<strong>Time:12:00pm till dawn !!!!
+![](/img/ELI.jpg)
 
-<strong>Place: Lapalise Nyandungu
+**Time:12:00pm till dawn !!!!**
 
-<strong>Entrance fee :10000rfw (Five People) 5000rfw (Couple) 3000rfw(single) <strong>
+**Place: Lapalise Nyandungu**
+
+**Entrance fee :10000rfw (Five People) 5000rfw (Couple) 3000rfw(single)**
 
 ON STAGE
-<h1>APASSFROM UG</h1>
 
-MUSIC BY
-*VJ nano*
+# APASS FROM UG
+
+MUSIC BY *VJ nano*
 
 *DJ miles*
 
@@ -28,5 +28,4 @@ MUSIC BY
 
 *Selkta Copain*
 
-contact <strong> (+250) 788 282 64</strong>
-
+contact **(+250) 788 282 64**
