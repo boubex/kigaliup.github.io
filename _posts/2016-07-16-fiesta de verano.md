@@ -23,3 +23,4 @@ music by
 *Dj Toxxyc*
 
 
+<div class="fb-share-button" data-href="http://upkigali.com/2016/07/16/fiesta-de-verano.html" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fupkigali.com%2F2016%2F07%2F16%2Ffiesta-de-verano.html&amp;src=sdkpreparse">Share</a></div>
