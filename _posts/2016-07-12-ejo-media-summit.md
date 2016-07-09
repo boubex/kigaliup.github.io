@@ -10,11 +10,11 @@ comments: true;
 <img src="{{site.github.url}}/img/ejo.jpg">
 
 
-**Time:8:30pm to 10:00 pm**
+<strong>Time:8:30pm to 10:00 pm</strong>
 
-**Place: The Manor Hotel**
+<strong>Place: The Manor Hotel</strong>
 
-**Entrance fee : early bird 50000 other 80000rfw**
+<strong>Entrance fee : early bird 50000 other 80000rfw</strong>
 
 An opportunity for thinkers, activists, professionals and leaders in media, technology, innovation and future thinking to engage in workshops and a forward-looking dialogue to foster collaboration and the use of social media to fast-track innovation in education and learning, the creative industry, journalism and communication, content marketing and branding.
 
