@@ -1,22 +1,24 @@
 ---
 layout: post
-
 title: African union Summit
-subtitle: 
+subtitle:
 image: African.jpg
 tag: literature
-image-source: "http://www.losandes.com.ar/files/image/2013/11/8/564849.jpg"
+image-source: 'http://www.losandes.com.ar/files/image/2013/11/8/564849.jpg'
 comments: true;
 ---
 
-<img src="{{site.github.url}}/img/African.jpg">
 
-dont miss out on the 27th African Union Summit happening in kigali rwanda
+![](/img/African.jpg)
 
-this year 2016 marks the year of African human rights with the particular theme of the event whitch is the <strong>Rights of women</strong>
+**Place: Kigali Convention Center**
 
-this 2016 African Union Summit <strong>education,health,speetch,security,gender equality and movement</strong>
+**Entrance: by invitation only&nbsp; !!!!!!**
 
-for more information visite there <a href="">website</a>
+don't miss out on the 27th African Union Summit happening in kigali rwanda
 
+this year 2016 marks the year of African human rights with the particular theme of the event which is the **Rights of women**
 
+this 2016 African Union Summit **education,health,speech,security,gender equality and movement**
+
+for more information visit there [website](){: .cc-active}
