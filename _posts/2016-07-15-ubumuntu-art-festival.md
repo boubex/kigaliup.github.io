@@ -33,3 +33,5 @@ The event will take place for <strong>3 days</strong> ,if you miss the first day
 <img src="{{site.github.url}}/img/ubu.jpg">
 <h1></h1>
 
+<div class="fb-share-button" data-href="http://upkigali.com/2016/07/15/ubumuntu-art-festival.html" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fupkigali.com%2F2016%2F07%2F15%2Fubumuntu-art-festival.html&amp;src=sdkpreparse">Share</a></div>
+
