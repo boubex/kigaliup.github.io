@@ -18,6 +18,7 @@ layout: default
   {% if organiser.photo %}
     <div class="author" style="background-image:url({{organiser.photo}});"></div>
   {% endif %}
+  {% include share.html %}
 
     <div class="post-content" itemprop="articleBody">
     {{ content }}
