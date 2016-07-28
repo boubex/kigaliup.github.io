@@ -11,7 +11,7 @@ comments: true;
 <br>
 
 
-<strong>Time:3:00pm to 9:00 pm<br>Place: The Manor Hotel<br>Entrance fee : Free</strong>
+<strong>Time:3:00pm to 9:00 pm<br>Place: The Manor Hotel<br>Entrance fee : 5000 rfw</strong>
 
 
 

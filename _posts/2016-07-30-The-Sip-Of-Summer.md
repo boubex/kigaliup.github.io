@@ -11,7 +11,7 @@ comments: true;
 <br>
 
 
-<strong>Time:8:30pm to 10:00 pm<br>Place: The Manor Hotel<br>Entrance fee :50000rfw(ordinary) 2000rfw(Vip) <br></strong>
+<strong>Time:8:30pm to 10:00 pm<br>Place: The Manor Hotel<br>Entrance fee :5000rfw(VIP) 2000rfw(Ordinary) <br></strong>
 
 Nothing happens to you, it happens for you" here the big event brought by the BAD TRIP crew where everyone will have fun, will enjoy, will be surprised....... This is one of the biggest event in this summer Make sure you will be there so that u will see by yourself
 
