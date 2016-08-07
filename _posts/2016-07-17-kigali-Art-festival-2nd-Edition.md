@@ -4,7 +4,7 @@ layout: post
 title: Kigali Art Festival 2nd edition
 subtitle: 
 image: art.jpg
-tag: literature
+tag: art
 comments: true;
 ---
 

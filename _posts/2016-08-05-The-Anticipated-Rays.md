@@ -4,7 +4,7 @@ layout: post
 title: The Anticipated Rays
 subtitle: 
 image: art12.jpg
-tag: literature
+tag: art
 comments: true;
 ---
 

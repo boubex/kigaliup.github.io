@@ -3,7 +3,7 @@ layout: post
 title: The pop up Kigali
 subtitle:
 image: popup.jpg
-tag: literature
+tag: music
 comments: true;
 ---
 

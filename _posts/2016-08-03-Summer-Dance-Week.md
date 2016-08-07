@@ -4,7 +4,7 @@ layout: post
 title: Summer Dance Week
 subtitle: 
 image: dance1.jpg
-tag: literature
+tag: music
 comments: true;
 ---
 

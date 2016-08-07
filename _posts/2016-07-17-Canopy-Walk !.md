@@ -4,7 +4,7 @@ layout: post
 title: Canopy walk!
 subtitle: 
 image: cano.jpg
-tag: literature
+tag: trips
 comments: true;
 ---
 

@@ -4,7 +4,7 @@ layout: post
 title: Story Telling Evening
 subtitle: 
 image: story.jpg
-tag: literature
+tag: art
 comments: true;
 ---
 

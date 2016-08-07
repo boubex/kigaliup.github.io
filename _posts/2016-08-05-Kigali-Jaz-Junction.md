@@ -4,7 +4,7 @@ layout: post
 title: Kigali Jazz Junction
 subtitle: 
 image: jaz.jpg
-tag: literature
+tag: music
 comments: true;
 ---
 

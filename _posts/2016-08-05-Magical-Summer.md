@@ -4,7 +4,7 @@ layout: post
 title: Magical Summer
 subtitle: 
 image: menya.jpg
-tag: literature
+tag: music
 comments: true;
 ---
 
