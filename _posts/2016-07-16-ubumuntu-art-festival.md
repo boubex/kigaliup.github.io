@@ -4,7 +4,7 @@ layout: post
 title: Ubumuntu Art Festival
 subtitle: "Tonight I can write the saddest lines"
 image: ubumuntu.jpg
-tag: literature
+tag: art
 comments: true;
 ---
 

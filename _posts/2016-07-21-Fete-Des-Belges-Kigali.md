@@ -4,7 +4,7 @@ layout: post
 title: Fete des Belges Kigali
 subtitle: 
 image: bel.jpg
-tag: literature
+tag: music
 comments: true;
 ---
 

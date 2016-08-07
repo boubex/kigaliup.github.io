@@ -4,7 +4,7 @@ layout: post
 title: Arthur & Kansime Live
 subtitle: 
 image: live.jpg
-tag: literature
+tag: music
 comments: true;
 ---
 

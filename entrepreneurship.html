@@ -1,0 +1,47 @@
+---
+layout: default
+navigation_title: Entreprenuership
+permalink: /entrepreneurship/
+button: true
+
+---
+
+{% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
+<h1 class="event-time-heading fix-top">Future {% if site.event_label %} {{site.event_label}} {% else %} Events {% endif %} </h1>
+{% for post in site.posts reversed %}
+  {% if {{post.tag}} contains "entrepreneurship" %}
+{% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
+{% if blogDate >= currentDate %}
+<a href="{{ post.url | prepend: site.github.url }}">
+{% if post.image %}
+<div class="event-sqaure" style="background-image:url({{site.github.url}}/img/{{post.image}});">
+{% else %}
+<div class="event-sqaure" style="background-image:url(http://evento.io/img/cover.jpg);">
+{% endif %}
+<h2>{{ post.title }} <span>{{ post.date | date: "%b %-d, %Y" }}</span></h2>
+<div class='event-square-overlay'></div>
+</div>
+
+{% endif %}
+{% endif %}
+{% endfor %}
+
+<h1 class="event-time-heading">On going & Past {% if site.event_label %} {{site.event_label}} {% else %} Events {% endif %} </h1>
+{% for post in site.posts %}
+{% if {{post.tag}} contains "entrepreneurship" %}
+{% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
+{% if blogDate < currentDate %}
+<a href="{{ post.url | prepend: site.github.url }}">
+{% if post.image %}
+<div class="event-sqaure" style="background-image:url({{site.github.url}}/img/{{post.image}});">
+{% else %}
+<div class="event-sqaure" style="background-image:url(http://app-beacon.com/wp-content/uploads/2015/05/events.jpg);">
+{% endif %}
+<h2>{{ post.title }} <span>{{ post.date | date: "%b %-d, %Y" }}</span></h2>
+<div class='event-square-overlay'></div>
+</div>
+
+{% endif %}
+{% endif %}
+
+{% endfor %}

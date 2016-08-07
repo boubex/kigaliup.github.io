@@ -4,7 +4,7 @@ layout: post
 title: Visa Free Africa  Realities Vs Possibilities
 subtitle: 
 image: visa.jpg
-tag: literature
+tag: entrepreneurship
 comments: true;
 ---
 

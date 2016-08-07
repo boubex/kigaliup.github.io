@@ -2,7 +2,7 @@
 layout: post
 title: firsta de verano
 image: fifi.jpg
-tag: literature
+tag: music
 image-source: "http://www.losandes.com.ar/files/image/2013/11/8/564849.jpg"
 comments: true;
 ---

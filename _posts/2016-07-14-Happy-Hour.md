@@ -2,6 +2,7 @@
 layout: post
 title: Happy Hour & Welcome back DJ GILO
 image: hp.jpg
+tag: music
 
 comments: true;
 ---
