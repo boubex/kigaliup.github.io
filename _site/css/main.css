@@ -579,6 +579,65 @@ footer {
   text-decoration: none; }
   .button.button-primary:hover {
     background: #545450; }
+.social-fo  li{
+  list-style-type:none;
+  display:inline-block;
+  margin:0 5px;
+}
+.social-fo li a {
+    width: 35px;
+  height: 35px;
+    display: block;
+    background: #3B5998;
+    border-radius: 100px;
+    color: #fff;
+    line-height: 2.5em;
+    text-align: center;
+}
+.social-fo li a:hover {
+   transform:rotate(-360deg);
+}
+.social-fo li a.twi {
+    background: #4099FF;
+}
+.social-fo li a.pin {
+    background: #CD2830;
+}
+.social-fo li a.dri {
+    background:#E35E90;
+  }
+.social-fo {
+   margin-top: 150px;
+ } 
+
+
+.social-foe  li{
+  list-style-type:none;
+  display:inline-block;
+  margin:0 5px;
+}
+.social-foe li a {
+    width: 35px;
+  height: 35px;
+    display: block;
+    background: #3B5998;
+    border-radius: 100px;
+    color: #fff;
+    line-height: 2.5em;
+    text-align: center;
+}
+.social-foe li a:hover {
+   transform:rotate(-360deg);
+}
+.social-foe li a.twi {
+    background: #4099FF;
+}
+.social-foe li a.pin {
+    background: #CD2830;
+}
+.social-foe li a.dri {
+    background:#E35E90;
+  }
 
 
 

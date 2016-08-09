@@ -1,4 +1,4 @@
-# Evento Theme/Blog
+# /Blog
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -25,6 +25,21 @@ markdown: kramdown
 future: true
 
 url: upkigali.com
+
+defaults:
+  -
+      scope:
+        path: '_posts'
+        type: 'posts'
+      values:
+        reading_time: true
+        # Meta
+        show_tags: true
+        show_categories: true
+        # Social
+        share_buttons: true
+        disqus: true
+
 
 
 
