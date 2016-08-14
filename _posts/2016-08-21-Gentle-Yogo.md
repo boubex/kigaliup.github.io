@@ -9,9 +9,11 @@ comments: true;
 ---
 <img src="{{site.github.url}}/img/yoga.jpg">
 
-<strong>Time: 5:00 pm to 8:00 pm
-<strong>Place: Inema Art Center
-<strong>Price: 5000K </strong>
+<strong>Time: 5:00 pm to 8:00 pm</strong>
+
+<strong>Place: Inema Art Center</strong>
+
+<strong>Price: 5000 </strong>
 
 A new class, first session this Sunday August 21
 

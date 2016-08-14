@@ -9,8 +9,9 @@ comments: true;
 ---
 <img src="{{site.github.url}}/img/word.jpg">
 
-<strong>Time: 7:30 till late!!
-<strong>Place: Impacthub rooftop ,ep cafe
+<strong>Time: 7:30 till late!!</strong>
+
+<strong>Place: Impacthub rooftop Neo cafe</strong>
 
 Hey Fam,
 
