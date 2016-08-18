@@ -26,6 +26,9 @@ button: true
 {% endif %}
 {% endfor %}
 
+</div>
+</a>
+
 <h1 class="event-time-heading">On going & Past {% if site.event_label %} {{site.event_label}} {% else %} Events {% endif %} </h1>
 {% for post in site.posts %}
 {% if {{post.tag}} contains "art" %}
@@ -45,3 +48,16 @@ button: true
 {% endif %}
 
 {% endfor %}
+
+<style type="text/css">
+.event-time-heading{
+  color: #333;
+  width: 100%;
+  font-family:'OCR A Std';
+  font-size: 30px;
+  font-weight: 800;
+ 
+  text-align: center;
+}
+
+</style>
