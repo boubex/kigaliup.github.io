@@ -150,9 +150,9 @@ if (token) {
     // No, redirect the user to the login page
     window.location.href = "login.html";
 }
-</script>
 
-<script>
+
+
 function socialLogin(providerId) {
   var redirectUrl = window.location.protocol+'//'+window.location.host+window.location.pathname;
   UserApp.OAuth.getAuthorizationUrl({ provider_id: providerId, redirect_uri: redirectUrl },
