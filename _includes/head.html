@@ -11,7 +11,7 @@
   <meta property="og:title" content="UpKigali">
   <meta property="og:site_name" content="UpKigali ">
   <meta property="og:description" content="UpKigali is an event marketing website that provides a well built interface to view upcoming and on-going events in Kigali">
-  <meta property="og:image" content="{{site.github.url}}/img/header_cover.jpg">
+  <meta property="og:image" content="{{site.github.url}}/img/{{page.image}}">
   <meta property="og:image:type" content="image/jpeg">
   <meta property="og:type" content="website">
 
@@ -23,7 +23,7 @@
 <meta name="twitter:creator" content=" @bitiabt">
 
 <!--Imagens largas para o Twitter Summary Card precisam ter pelo menos 280x150px -->
-<meta name="twitter:image" content="{{site.github.url}}/img/header_cover.jpg">
+<meta name="twitter:image" content="{{site.github.url}}/img/{{page.image}}">
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
