@@ -9,9 +9,6 @@ tag: music
 ---
 
 
-<img src="{{site.github.url}}/img/sip.jpg"><br>
-<br>
-
 
 <strong>Time:8:30pm to 10:00 pm<br>Place: The Manor Hotel<br>Entrance fee :2000rfw(VIP) 1000rfw(Ordinary) <br></strong>
 
@@ -80,4 +77,3 @@ All this BAD_TRIP_CREW brought them just for you. You will be enjoying, all you 
 
 (1K only with a fresh cocktail)
 (2K only and you will be having fun with a free cocktail + a bracelet)
-

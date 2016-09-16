@@ -1,93 +1,90 @@
 ---
 layout: default
-cover: ConferencesHR.jpg'
 ---
 
 
-{% include trending.html %}
-
-
 <div class="home">
-
-    {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
-
-    <div class="clearfix">
-
-
-    <!--animated text html -->
-
-
-    
-
-
-
-
-
-      <h1 class="event-time-heading fix-top">Future {% if site.event_label %} {{site.event_label}} {% else %} Events {% endif %} </h1>
-
-      {% for post in site.posts reversed %}
-
-        {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
-
-        {% if blogDate >= currentDate %}
-
-          <a href="{{ post.url | prepend: site.github.url }}">
-            {% if post.image %}
-            <div class="event-sqaure" style="background-image:url({{site.github.url}}/img/{{post.image}});">
-            {% else %}
-            <div class="event-sqaure" style="background-image:url(http://evento.io/img/cover.jpg);">
-            {% endif %}
-              <h2>{{ post.title }} <span>{{ post.date | date: "%b %-d, %Y" }}</span></h2>
-               <div class='event-square-overlay'></div>
-            </div>
-
-          </a>
-
-        {% endif %}
-
-      {% endfor %}
-    </div>
-   
-
-      <h1 class="event-time-heading">On going & Past {% if site.event_label %} {{site.event_label}} {% else %} Events {% endif %} </h1>
-      {% for post in site.posts %}
-
-        {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
-
-        {% if blogDate < currentDate %}
-
-          <a href="{{ post.url | prepend: site.github.url }}">
-            {% if post.image %}
-            <div class="event-sqaure" style="background-image:url({{site.github.url}}/img/{{post.image}});">
-            {% else %}
-            <div class="event-sqaure" style="background-image:url(http://app-beacon.com/wp-content/uploads/2015/05/events.jpg);">
-            {% endif %}
-              <h2>{{ post.title }} <span>{{ post.date | date: "%b %-d, %Y" }}</span></h2>
-              <div class='event-square-overlay'></div>
-            </div>
-
-          </a>
-
-        {% endif %}
-
-      {% endfor %}
-    </div>
-
+   {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
+<header class="jumbotron large-feature">
+  <div class="text-container">
+  <h2>Want to know what's happening in Kigali?</h2>
+  <h4>We've got you covered</h4>
 </div>
 
+  <div class="button_con">
+    <a href="#future_events"><button class="btn btn-primary">Get Started</button>
+  </div>
+</header>
 
-<style type="text/css">
-.event-time-heading{
-  color: #333;
-  width: 100%;
-  font-family:'OCR A Std';
-  font-size: 30px;
-  font-weight: 800;
- 
-  text-align: center;
-}
+<div class="group_by_time" id="future_events">
+  <h3 class="fe_title">Upcoming Events</h3><hr/>
+   <div class="row">
+  {% for post in site.posts reversed limit: 4%}
 
-</style>
+       {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
+
+       {% if blogDate >= currentDate %}
+       <div class="col-md-4 post">
+         <a href="{{ post.url | prepend: site.github.url }}">
+
+           <div class="post-preview" style="background-image:url({{site.github.url}}/img/{{post.image}});">
+
+           </div>
+
+         </a>
+         <div class="post_options">
+           <ul class="social_icons">
+
+           <li class="post_title">{{post.title}}</li><br>
+           <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+           <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+         </ul>
+         </div>
+
+       </div>
 
 
+       {% endif %}
 
+{% endfor %}
+</div>
+</div>
+
+<div class="group_by_time">
+  <h3 class="fe_title">Ongoing and Past Events</h3><hr/>
+   <div class="row">
+  {% for post in site.posts limit: 6%}
+
+
+       {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
+
+       {% if blogDate < currentDate %}
+
+           <div class="col-md-4 post">
+             <a href="{{ post.url | prepend: site.github.url }}">
+
+               <div class="post-preview" style="background-image:url({{site.github.url}}/img/{{post.image}});">
+
+               </div>
+
+             </a>
+             <div class="post_options">
+               <ul class="social_icons">
+
+               <li class="post_title">{{post.title}}</li><br>
+               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+             </ul>
+             </div>
+
+           </div>
+
+       {% endif %}
+
+{% endfor %}
+</div>
+</div>
+
+</div>

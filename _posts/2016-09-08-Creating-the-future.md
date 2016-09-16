@@ -1,15 +1,15 @@
 ---
 layout: post
 
-title: CREATING FUTURE 
-subtitle: 
+title: Creating Future
+subtitle:
 image: photo.jpeg
 tag: asr
 comments: true;
 ---
 
 
-<img src="{{site.github.url}}/img/photo.jpeg">
+
 
 ABOUT THE EXHIBITION “CREATING FUTURE “
 

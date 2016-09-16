@@ -1,49 +1,11 @@
-# /Blog
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Up Kigali | Event higlights
+title: UpKigali
+description: UpKigali is an event marketing website showcasing local events going on or upcoming in Kigali.
 
-#What is the name of the events or talks you would like to host? (Example Brownbags, Talks, Lighting Talks)
-event_label: Events
-
-description: > # this means to ignore newlines until "baseurl:"
-  event marketing and higlights in kigali rwanda
-
- # the base hostname & protocol for your site
-
-#
+url: "http://yourdomain.com"
 
 # Build settings
 markdown: kramdown
 
-#Have to show future posts for future events.
 future: true
-
-url: upkigali.com
-
-defaults:
-  -
-      scope:
-        path: '_posts'
-        type: 'posts'
-      values:
-        reading_time: true
-        # Meta
-        show_tags: true
-        show_categories: true
-        # Social
-        share_buttons: true
-        disqus: true
-
-
-
-
-
-
-
-

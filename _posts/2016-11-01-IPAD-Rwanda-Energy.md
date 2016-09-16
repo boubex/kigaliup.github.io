@@ -1,17 +1,17 @@
 ---
 layout: post
-
+future: true
 title: IPAD Rwanda Energy Infrastructure Forum
-subtitle: 
+subtitle:
 image: ipad.jpg
+date: 2016-11-01
 tag: entrepreneurship
 comments: true;
 ---
 
-<img src="{{site.github.url}}/img/ipad.jpg">
+
 
 
 iPAD Rwanda is a networking investment meeting to demonstrate the proactive nature of Rwanda, looking specifically at power and infrastructure.
 
 Energy conference, in partnership with MININFRA and Rwanda Energy Group Ltd, facilitating investment into Rwanda's emerging energy sector
-

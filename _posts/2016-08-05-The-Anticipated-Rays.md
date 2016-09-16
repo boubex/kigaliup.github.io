@@ -2,13 +2,13 @@
 layout: post
 
 title: The Anticipated Rays
-subtitle: 
+subtitle:
 image: art12.jpg
 tag: art
 comments: true;
 ---
 
-<img src="{{site.github.url}}/img/art12.jpg">
+
 
 <strong>Time:6:00pm till late !!!!
 
@@ -31,6 +31,6 @@ November 2015, Izabiriza Moses visited Kiziba refugee camp in Western province o
 When we become Refugees we loose Hope, love, Freedom and Our Community displaced. When life changed we loose our families, we loose our Humanity and you see that World is not yours.
 In His Project, Moses is showing different Perspective of everyday life and Hope of Refugees for their Future.
 
-Drinks will be available 
+Drinks will be available
 
 Music by : Deejay Pyfo

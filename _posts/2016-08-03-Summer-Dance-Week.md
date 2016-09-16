@@ -2,13 +2,13 @@
 layout: post
 
 title: Summer Dance Week
-subtitle: 
+subtitle:
 image: dance1.jpg
 tag: music
 comments: true;
 ---
 
-<img src="{{site.github.url}}/img/dance1.jpg">
+
 
 <strong>Time:8:00pm till late !!!!
 
@@ -16,30 +16,30 @@ comments: true;
 
 <strong>Entrance fee :(3000rfw) (5000rfw)<strong>
 )
-Our Yearly Event is Coming Back again. 
+Our Yearly Event is Coming Back again.
 
 Don't Miss Summer Dance Week • Rwanda for the 4th Time with Best dancers from different Countries : RWANDA , CONGO , UGANDA and BURUNDI.
 
 *Rwandan Best Crews*
 
 KREST CREW
-AFRO KASA 
+AFRO KASA
 SNIPERS
-JABBA JUNIOR 
+JABBA JUNIOR
 KIGALI BBOYS (Abatanguha)
- 
-*CONGO* 
+
+*CONGO*
  Rhina Crew , Faraja Batumike
 
 *Solo Dancers from UGANDA*
 
 Crusha Bornz ( Krump Ug),
  Moze Beatboxer (BPU )
-Sammie Poppins (Poppin Ug) 
- 
+Sammie Poppins (Poppin Ug)
+
 
 *BURUNDI*
 
-Olisaint Olis 
+Olisaint Olis
 
-We have special live battle of breakdancing( Bboy Rwanda) and hip-hop dance Rwanda. 
+We have special live battle of breakdancing( Bboy Rwanda) and hip-hop dance Rwanda.

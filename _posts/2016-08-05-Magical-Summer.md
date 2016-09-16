@@ -2,13 +2,13 @@
 layout: post
 
 title: Magical Summer
-subtitle: 
+subtitle:
 image: menya.jpg
 tag: music
 comments: true;
 ---
 
-<img src="{{site.github.url}}/img/menya.jpg">
+
 
 <strong>Time:3:00pm till late !!!!
 
@@ -20,21 +20,21 @@ comments: true;
 
 <h1>starting the following Artists</h1>
 
--TBB 
+-TBB
 
--UMUTARE GABY 
+-UMUTARE GABY
 
--ACTIVE 
+-ACTIVE
 
--GABIRO GUITAR 
+-GABIRO GUITAR
 
--JULES SENTORE 
+-JULES SENTORE
 
--BABOU TIGHTKING 
+-BABOU TIGHTKING
 
--Fred Wayne 
+-Fred Wayne
 
--Nickita Heaven 
+-Nickita Heaven
 
 <h1>Dance crews</h1>
 

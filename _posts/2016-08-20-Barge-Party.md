@@ -2,13 +2,11 @@
 layout: post
 
 title: Barge Party 2016
-subtitle: 
+subtitle:
 image: kivu.jpeg
 tag: music
 comments: true;
 ---
-
-<img src="{{site.github.url}}/img/kivu.jpeg">
 
 
 People of the World,

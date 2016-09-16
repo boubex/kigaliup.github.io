@@ -2,14 +2,13 @@
 layout: post
 
 title: Language courses are back!
-subtitle: 
+subtitle:
 image: fra.png
 tag: art
 comments: true;
 ---
 
 
-<img src="{{site.github.url}}/img/fra.png">
 
 Don't miss the registrations to the all new French and Kinyarwanda language courses with the Institut français du Rwanda!
 

@@ -2,12 +2,12 @@
 layout: post
 
 title: Spoken Word
-subtitle: 
+subtitle:
 image: word.jpg
 tag: art
 comments: true;
 ---
-<img src="{{site.github.url}}/img/word.jpg">
+
 
 <strong>Time: 7:30 till late!!</strong>
 

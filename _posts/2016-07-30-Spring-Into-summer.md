@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spring Into Summer 
+title: Spring Into Summer
 image: u.jpg
 
 comments: true;
@@ -9,8 +9,6 @@ tag: music
 ---
 
 
-<img src="{{site.github.url}}/img/u.jpg"><br>
-<br>
 
 
 <strong>Time:3:00pm to 9:00 pm<br>Place: The Manor Hotel<br>Entrance fee : 5000 rfw</strong>

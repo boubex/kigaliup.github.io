@@ -2,12 +2,12 @@
 layout: post
 
 title: Wednesday night at jumelage
-subtitle: 
+subtitle:
 image: wen.png
 tag: art
 comments: true;
 ---
-<img src="{{site.github.url}}/img/wen.png">
+
 
 <strong>Time: 7:30 till late!!</strong>
 

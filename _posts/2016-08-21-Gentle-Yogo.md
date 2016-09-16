@@ -2,12 +2,12 @@
 layout: post
 
 title: Gentle Yoga
-subtitle: 
+subtitle:
 image: yoga.jpg
 tag: art
 comments: true;
 ---
-<img src="{{site.github.url}}/img/yoga.jpg">
+
 
 <strong>Time: 5:00 pm to 8:00 pm</strong>
 
