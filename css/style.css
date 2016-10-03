@@ -145,9 +145,7 @@ button a {
   height: 200px;
   background-size:cover;
   background-position: center center;
-  border: 2px solid #1f1f1f;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  
 }
 
 .post-con{
@@ -165,9 +163,6 @@ button a {
   background-size: cover;
   background-position: center center;
   height:500px;
-  border: 2px solid #1f1f1f;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
 }
 
 .post:hover{
@@ -177,7 +172,7 @@ button a {
 .post_options{
   height:60px;
   padding:10px auto 10px auto;
-  border: 2px solid #5f5f5f;
+
   border-top:none;
   position:relative;
 }
