@@ -2,29 +2,86 @@
 layout: default
 ---
 
-<div class="apologies-container text-center">
-<h3>Sorry, Up Kigali is under Construction to give you a better experience across multiple platforms</h3>
-<hr/>
-<ul>
-	<li><i class="fa fa-4x fa-android"></i></li>
-	<li><i class="fa fa-4x fa-apple"></i></li>
-	<li><i class="fa fa-4x fa-firefox"></i></li>
-</ul>
+
+<div class="home">
+   {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
+<header class="jumbotron large-feature">
+  <div class="text-container">
+  
 </div>
 
-<style>
-.apologies-container{
-	max-width: 100%;
-	color:#fff;
-	height:100vh;
-	margin-right:auto;
-	margin-left:auto;
-	padding-top:200px;
-	background-color: #0D355a;
-}
+ 
+</header>
 
-.apologies-container ul li{
-	display: inline;
-	padding: 10px;
-}
-</style>
+<div class="group_by_time" id="future_events">
+  <h3 class="fe_title">Upcoming Events</h3><hr/>
+   <div class="row">
+  {% for post in site.posts reversed limit: 4%}
+
+       {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
+
+       {% if blogDate >= currentDate %}
+       <div class="col-md-4 post">
+         <a href="{{ post.url | prepend: site.github.url }}">
+
+           <div class="post-preview" style="background-image:url({{site.github.url}}/img/{{post.image}});">
+
+           </div>
+
+         </a>
+         <div class="post_options">
+           <ul class="social_icons">
+
+           <li class="post_title">{{post.title}}</li><br>
+           <li><a target="_blank"  href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{post.url}}"><i class="fa fa-facebook"></i></a></li>
+           <li><a target="_blank"  href="https://twitter.com/intent/tweet?text={{post.title}} + {{site.url}}{{post.url}}"><i class="fa fa-twitter"></i></a></li>
+           
+         </ul>
+         </div>
+
+       </div>
+
+
+       {% endif %}
+
+{% endfor %}
+</div>
+</div>
+
+<div class="group_by_time">
+  <h3 class="fe_title">Ongoing and Past Events</h3><hr/>
+   <div class="row">
+  {% for post in site.posts limit: 6%}
+
+
+       {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
+
+       {% if blogDate < currentDate %}
+
+           <div class="col-md-4 post">
+             <a href="{{ post.url | prepend: site.github.url }}">
+
+               <div class="post-preview" style="background-image:url({{site.github.url}}/img/{{post.image}});">
+
+               </div>
+
+             </a>
+             <div class="post_options">
+               <ul class="social_icons">
+
+               <li class="post_title">{{post.title}}</li><br>
+               <li><a target="_blank"  href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{post.url}}"><i class="fa fa-facebook"></i></a></li>
+               <li><a target="_blank"  href="https://twitter.com/intent/tweet?text={{post.title}} + {{site.url}}{{post.url}}"><i class="fa fa-twitter"></i></a></li>
+               
+             </ul>
+             </div>
+
+           </div>
+
+       {% endif %}
+
+{% endfor %}
+</div>
+</div>
+
+</div>

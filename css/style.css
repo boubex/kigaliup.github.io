@@ -19,16 +19,17 @@ body{
 ul{
   list-style-type: none;
   margin: 0 ;
-  padding: 0;
+  
 }
 
 a{
   color: #1f1f1f !important;
+  padding: 10px;
 }
 
 a:hover{
-  text-decoration: none;
-  color: #!important;
+ 
+  color: blue !important;
 }
 
 .row{
