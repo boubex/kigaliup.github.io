@@ -1,14 +1,12 @@
 ---
-layout: post
 title: The sip of summer
+date: 2016-07-30 00:00:00 Z
+tags:
+- music
+layout: post
 image: sip.jpg
-
 comments: true;
-
-tag: music
 ---
-
-
 
 <strong>Time:8:30pm to 10:00 pm<br>Place: The Manor Hotel<br>Entrance fee :2000rfw(VIP) 1000rfw(Ordinary) <br></strong>
 

@@ -1,14 +1,13 @@
 ---
-layout: post
-
 title: Pimp my brand
-subtitle:
+date: 2016-08-24 00:00:00 Z
+tags:
+- entrepreneurship
+layout: post
+subtitle: 
 image: pimp.jpeg
-tag: entrepreneurship
 comments: true;
 ---
-
-
 
 In today’s ever-dynamic world, branding is taking an all new shape.
 Our one day of hands on branding will focus on:

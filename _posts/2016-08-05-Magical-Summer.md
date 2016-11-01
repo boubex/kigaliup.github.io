@@ -1,14 +1,13 @@
 ---
-layout: post
-
 title: Magical Summer
-subtitle:
+date: 2016-08-05 00:00:00 Z
+tags:
+- music
+layout: post
+subtitle: 
 image: menya.jpg
-tag: music
 comments: true;
 ---
-
-
 
 <strong>Time:3:00pm till late !!!!
 

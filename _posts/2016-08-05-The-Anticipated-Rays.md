@@ -1,14 +1,13 @@
 ---
-layout: post
-
 title: The Anticipated Rays
-subtitle:
+date: 2016-08-05 00:00:00 Z
+tags:
+- art
+layout: post
+subtitle: 
 image: art12.jpg
-tag: art
 comments: true;
 ---
-
-
 
 <strong>Time:6:00pm till late !!!!
 

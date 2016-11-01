@@ -1,13 +1,13 @@
 ---
-layout: post
-
 title: Spoken Word
-subtitle:
+date: 2016-08-17 00:00:00 Z
+tags:
+- art
+layout: post
+subtitle: 
 image: word.jpg
-tag: art
 comments: true;
 ---
-
 
 <strong>Time: 7:30 till late!!</strong>
 

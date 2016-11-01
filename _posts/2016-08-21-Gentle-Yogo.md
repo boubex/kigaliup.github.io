@@ -1,13 +1,13 @@
 ---
-layout: post
-
 title: Gentle Yoga
-subtitle:
+date: 2016-08-21 00:00:00 Z
+tags:
+- art
+layout: post
+subtitle: 
 image: yoga.jpg
-tag: art
 comments: true;
 ---
-
 
 <strong>Time: 5:00 pm to 8:00 pm</strong>
 

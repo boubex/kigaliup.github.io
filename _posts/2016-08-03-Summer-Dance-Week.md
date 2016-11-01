@@ -1,14 +1,13 @@
 ---
-layout: post
-
 title: Summer Dance Week
-subtitle:
+date: 2016-08-03 00:00:00 Z
+tags:
+- music
+layout: post
+subtitle: 
 image: dance1.jpg
-tag: music
 comments: true;
 ---
-
-
 
 <strong>Time:8:00pm till late !!!!
 
