@@ -1,13 +1,13 @@
 ---
-layout: post
-
 title: Wednesday night at jumelage
-subtitle:
+date: 2016-08-25 00:00:00 Z
+tags:
+- art
+layout: post
+subtitle: 
 image: wen.png
-tag: art
 comments: true;
 ---
-
 
 <strong>Time: 7:30 till late!!</strong>
 

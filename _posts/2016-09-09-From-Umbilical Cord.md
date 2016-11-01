@@ -1,13 +1,13 @@
 ---
-layout: post
-
 title: From umbilical cord
-subtitle:
+date: 2016-09-09 00:00:00 Z
+tags:
+- art
+layout: post
+subtitle: 
 image: berg.jpg
-tag: art
 comments: true;
 ---
-
 
 <strong>Time: 5:00 till late!!</strong>
 

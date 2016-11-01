@@ -2,8 +2,21 @@
 layout: default
 ---
 
+<div class="home">
+   {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
+<header class="jumbotron large-feature">
+  <div class="text-container">
+  <h2>Want to know what's happening in Kigali?</h2>
+  <h4>We've got you covered</h4>
+</div>
+
+  <div class="button_con">
+    <a href="#future_events"><button class="btn btn-primary">Get Started</button>
+  </div>
+</header>
+
 <div class="group_by_time" id="future_events">
-  <h3 class="fe_title">Local</h3><hr/>
+  <h3 class="fe_title">Upcoming Events</h3><hr/>
    <div class="row">
   {% for post in site.posts reversed limit: 4%}
 
@@ -38,7 +51,7 @@ layout: default
 </div>
 
 <div class="group_by_time">
-  <h3 class="fe_title">Overseas</h3><hr/>
+  <h3 class="fe_title">Ongoing and Past Events</h3><hr/>
    <div class="row">
   {% for post in site.posts limit: 6%}
 
@@ -71,4 +84,6 @@ layout: default
 
 {% endfor %}
 </div>
+</div>
+
 </div>

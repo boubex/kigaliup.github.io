@@ -1,13 +1,13 @@
 ---
-layout: post
-
 title: Barge Party 2016
-subtitle:
+date: 2016-08-20 00:00:00 Z
+tags:
+- music
+layout: post
+subtitle: 
 image: kivu.jpeg
-tag: music
 comments: true;
 ---
-
 
 People of the World,
 

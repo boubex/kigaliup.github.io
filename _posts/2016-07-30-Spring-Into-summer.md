@@ -1,15 +1,12 @@
 ---
-layout: post
 title: Spring Into Summer
+date: 2016-07-30 00:00:00 Z
+tags:
+- music
+layout: post
 image: u.jpg
-
 comments: true;
-
-tag: music
 ---
-
-
-
 
 <strong>Time:3:00pm to 9:00 pm<br>Place: The Manor Hotel<br>Entrance fee : 5000 rfw</strong>
 

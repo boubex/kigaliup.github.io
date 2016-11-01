@@ -1,15 +1,13 @@
 ---
-layout: post
-
 title: Creating Future
-subtitle:
+date: 2016-09-08 00:00:00 Z
+tags:
+- asr
+layout: post
+subtitle: 
 image: photo.jpeg
-tag: asr
 comments: true;
 ---
-
-
-
 
 ABOUT THE EXHIBITION “CREATING FUTURE “
 
