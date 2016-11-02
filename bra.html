@@ -2,73 +2,8 @@
 layout: default
 ---
 
-<div class="group_by_time" id="future_events">
-  <h3 class="fe_title">Local</h3><hr/>
-   <div class="row">
-  {% for post in site.posts reversed limit: 4%}
-
-       {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
-
-       {% if blogDate >= currentDate %}
-       <div class="col-md-4 post">
-         <a href="{{ post.url | prepend: site.github.url }}">
-
-           <div class="post-preview" style="background-image:url({{site.github.url}}/img/{{post.image}});">
-
-           </div>
-
-         </a>
-         <div class="post_options">
-           <ul class="social_icons">
-
-           <li class="post_title">{{post.title}}</li><br>
-           <li><a target="_blank"  href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{post.url}}"><i class="fa fa-facebook"></i></a></li>
-           <li><a target="_blank"  href="https://twitter.com/intent/tweet?text={{post.title}} + {{site.url}}{{post.url}}"><i class="fa fa-twitter"></i></a></li>
-           
-         </ul>
-         </div>
-
-       </div>
+<center>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfUj-gr3D9HQNquLwnYTQAsEiyZcIQEg4PZ_n01us4-gVI1Gw/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 
-       {% endif %}
-
-{% endfor %}
-</div>
-</div>
-
-<div class="group_by_time">
-  <h3 class="fe_title">Overseas</h3><hr/>
-   <div class="row">
-  {% for post in site.posts limit: 6%}
-
-
-       {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
-
-       {% if blogDate < currentDate %}
-
-           <div class="col-md-4 post">
-             <a href="{{ post.url | prepend: site.github.url }}">
-
-               <div class="post-preview" style="background-image:url({{site.github.url}}/img/{{post.image}});">
-
-               </div>
-
-             </a>
-             <div class="post_options">
-               <ul class="social_icons">
-
-               <li class="post_title">{{post.title}}</li><br>
-               <li><a target="_blank"  href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{post.url}}"><i class="fa fa-facebook"></i></a></li>
-               <li><a target="_blank"  href="https://twitter.com/intent/tweet?text={{post.title}} + {{site.url}}{{post.url}}"><i class="fa fa-twitter"></i></a></li>
-               
-             </ul>
-             </div>
-
-           </div>
-
-       {% endif %}
-
-{% endfor %}
-</div>
-</div>
+</center>
