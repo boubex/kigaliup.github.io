@@ -29,7 +29,7 @@ a{
 
 a:hover{
  
-  color: blue !important;
+  color: #c8d502 !important;
 }
 
 .row{
@@ -47,7 +47,7 @@ nav img{
   height:90px;
 }
 nav a{
-  color: #2f2f2f ;
+  color: #c8d502 ;
   text-decoration: none;
 }
 
@@ -61,6 +61,7 @@ nav ul{
 }
 nav li{
   display: inline;
+
 
 }
 
@@ -101,6 +102,7 @@ nav li{
   background-image: url('../img/header_cover.jpg');
   background-repeat: none;
   height:500px;
+  padding: 50px;
   background-size: cover;
   background-position: center center;
   clear:both;
@@ -145,6 +147,7 @@ button a {
 .post-preview{
   height: 200px;
   background-size:cover;
+
   background-position: center center;
   
 }
@@ -153,21 +156,27 @@ button a {
   clear: both;
   max-width: 1020px;
   margin: 0 auto;
+
   height: auto;
+  background-color: #eefff6;
 
 }
 
 .post{
   height:300px;
+
+
 }
 .post-image{
   background-size: cover;
   background-position: center center;
-  height:500px;
+  height:400px;
 }
 
 .post:hover{
-  opacity: 0.7;
+  
+  
+  background-color: #c5efbb;
 }
 
 .post_options{
@@ -186,11 +195,15 @@ button a {
 .post_info{
   padding: 50px 0 50px 0;
   margin: 10px 0 40px 0;
-  border: 1px solid #4f4f4f;
+
 }
 .post_text{
   max-width: 800px;
   margin: 0 auto;
+  font-size: 18px;
+  padding: 20px;
+
+
 }
 
 .post_options i{
