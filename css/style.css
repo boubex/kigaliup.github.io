@@ -116,6 +116,10 @@ nav li{
   margin-top: 150px;
 }
 
+.home{
+  padding-bottom: 100px;
+}
+
 .text-container h2{
   color:#fff;
   font-weight: 800;
@@ -245,8 +249,12 @@ footer{
   padding-bottom: 10px;
 }
 
+.column{
+  padding-left: 0 !important;
+}
+
 footer li a{
-  color: #fff !important;
+  color: #a8a8a8 !important;
   padding-left: 0 !important;
 
 
@@ -254,6 +262,11 @@ footer li a{
 
 footer li{
   margin-bottom: 2px !important;
+}
+
+.footer-heading{
+  margin-bottom: 20px !important;
+  color: #f1f1f1;
 }
 
 footer i{
