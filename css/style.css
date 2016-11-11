@@ -19,7 +19,8 @@ body{
 ul{
   list-style-type: none;
   margin: 0 ;
-  
+  padding-left: 0 !important;
+
 }
 
 a{
@@ -28,7 +29,7 @@ a{
 }
 
 a:hover{
- 
+
   color: #c8d502 !important;
 }
 
@@ -115,6 +116,10 @@ nav li{
   margin-top: 150px;
 }
 
+.home{
+  padding-bottom: 100px;
+}
+
 .text-container h2{
   color:#fff;
   font-weight: 800;
@@ -149,7 +154,7 @@ button a {
   background-size:cover;
 
   background-position: center center;
-  
+
 }
 
 .post-con{
@@ -174,8 +179,8 @@ button a {
 }
 
 .post:hover{
-  
-  
+
+
   background-color: #c5efbb;
 }
 
@@ -244,13 +249,28 @@ footer{
   padding-bottom: 10px;
 }
 
+.column{
+  padding-left: 0 !important;
+}
+
 footer li a{
-  color: #fff !important;
+  color: #a8a8a8 !important;
+  padding-left: 0 !important;
+
 
 }
 
+footer li{
+  margin-bottom: 2px !important;
+}
+
+.footer-heading{
+  margin-bottom: 20px !important;
+  color: #f1f1f1;
+}
+
 footer i{
-  padding: 10px;
+  padding-right: 10px;
 }
 
 .copyright{
