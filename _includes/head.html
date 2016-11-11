@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="UpKigali is an event marketing website that provides a well built interface to view upcoming and on-going events in Kigali">
   <meta name="author" content="UpKigali">
-  
+
 <!-- Facebook metatags -->
   <meta property="og:locale" content="">
   <meta property="og:url" content="{{site.url}}{{page.url}}">
@@ -25,13 +25,35 @@
 <!--Imagens largas para o Twitter Summary Card precisam ter pelo menos 280x150px -->
 <meta name="twitter:image" content="{{page.image}}">
 
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title | escape }} | UpKigali{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="stylesheet" href="{{site.github.url}}/css/style.css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <link href="{{site.github.url}}/css/bootstrap.min.css" rel="stylesheet">
-   <link href="css/ratchet.min.css" rel="stylesheet">
+   <link href="{{site.github.url}}/css/ratchet.min.css" rel="stylesheet">
   <link href="{{site.github.url}}/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!-- fav icon -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="{{site.github.url}}/img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="{{site.github.url}}/img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="{{site.github.url}}/img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="{{site.github.url}}/img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="{{site.github.url}}/img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="{{site.github.url}}/img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="{{site.github.url}}/img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="{{site.github.url}}/img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="{{site.github.url}}/img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="{{site.github.url}}/img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="{{site.github.url}}/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="{{site.github.url}}/img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{{site.github.url}}/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="{{site.github.url}}/img/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="{{site.github.url}}/img/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
 </head>
