@@ -19,7 +19,8 @@ body{
 ul{
   list-style-type: none;
   margin: 0 ;
-  
+  padding-left: 0 !important;
+
 }
 
 a{
@@ -28,7 +29,7 @@ a{
 }
 
 a:hover{
- 
+
   color: #c8d502 !important;
 }
 
@@ -149,7 +150,7 @@ button a {
   background-size:cover;
 
   background-position: center center;
-  
+
 }
 
 .post-con{
@@ -174,8 +175,8 @@ button a {
 }
 
 .post:hover{
-  
-  
+
+
   background-color: #c5efbb;
 }
 
@@ -246,11 +247,17 @@ footer{
 
 footer li a{
   color: #fff !important;
+  padding-left: 0 !important;
+
 
 }
 
+footer li{
+  margin-bottom: 2px !important;
+}
+
 footer i{
-  padding: 10px;
+  padding-right: 10px;
 }
 
 .copyright{
