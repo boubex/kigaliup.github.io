@@ -5,9 +5,8 @@ tags:
 - top
 layout: post
 future: true
-subtitle:
+subtitle: 
 image: waka2.jpeg
-tag: top
 comments: true;
 ---
 
