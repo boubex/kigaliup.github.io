@@ -1,7 +1,7 @@
 <div class="top-events">
   <h2 class="sidebar-heading sidebar-title text-uppercase text-center">Top events</h2>
   {% for post in site.posts %}
-  {% if post.tag == 'top' %}
+  {% if post.tag == "top" %}
 <a href="{{post.url}}">
 <div class="text-center">
     <img class="img-responsive thumb-image" src="{{site.github.url}}/img/{{post.image}}">

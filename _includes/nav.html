@@ -20,7 +20,7 @@
                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                </button>
-               <a class="navbar-brand site-title" href="{{site.github.url}}/index.html">UpKigali</a>
+               <a class="navbar-brand site-title" href="{{site.github.url}}/index.html"><img src="{{site.github.url}}/img/logo.jpg" class="img-responsive"></a>
            </div>
 
            <!-- Collect the nav links, forms, and other content for toggling -->
@@ -66,6 +66,7 @@
 
 .key-button{
   margin-bottom: 4px;
+  color: #fff !important;
   padding: 1em !important;
 }
 
@@ -76,30 +77,37 @@ nav{
   padding-right: 5px;
   color: #fff;
   min-height: 60px;
-  background-color: #131f28;
+  background-color: #fff !important ;
 }
 nav ul li{
   display: inline;
 }
 
 nav a{
-  color: #fff !important;
+  color: #1f1f1f !important;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 
 
 .nav-button{
   font-weight: 700;
+  color: #fff;
 }
 
 .mobile{
+  min-height: 150px !important;
   margin-bottom: 0 !important;
-  background-color: #131f28 !important;
-  display: ;
+  background-color: #fff !important;
+
 }
 
+.navbar-toggle{
+background-color:  #286090;
+}
 .navbar-toggle:hover{
-  background-color: transparent !important;
+  background-color: #286090 !important;
 }
 
 @media only screen and (max-width: 500px){
@@ -112,6 +120,13 @@ nav a{
     display: block !important;
   }
 
+  .mobile img{
+    float: left;
+  }
+
+
+
+}
 
 
 }
