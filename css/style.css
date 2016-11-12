@@ -163,6 +163,12 @@ button a {
 
 
 }
+
+.homepage{
+  max-width: 960px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
 .post-image{
   background-size: cover;
   background-position: center center;
