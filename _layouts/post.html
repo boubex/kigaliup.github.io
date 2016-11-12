@@ -2,20 +2,47 @@
 layout: default
 ---
 
+<div class="row post-layout">
+
+  <div class="post-content-container col-md-8">
 <div class="post-con">
-
-
-
-  <div class="post-image" style="background-image: url('{{site.github.url}}/img/{{page.image}}')">
+  <h3 class="pull-left sidebar-title">{{page.title}}</h3>
+  <div class="pull-right" style="padding-right: 40px">
+    {% include social-icons.html %}
   </div>
+  <!-- begin row -->
+  <div class="row">
 
-
-
+  <div class="post-image col-md-6">
+    <img src="{{site.github.url}}/img/{{page.image}}" class="img-responsive">
+  </div>
+  <div class="col-md-6">
   <div class="post_info">
-    <div class="post_text">
+    {% include post-info.html %}
+  </div>
+</div>
+</div>
+<!-- end row -->
+
+<div class="row">
+
+  <div class="col-md-12">
+    <div class="post_text text-muted" style="font-size: 14px">
+
   {{content}}
-  {% include share.html %}
+</div>
 </div>
 </div>
 
+
+</div>
+
+
+</div>
+
+
+<div class="sidebar col-md-4">
+
+{% include sidebar.html %}
+</div>
 </div>

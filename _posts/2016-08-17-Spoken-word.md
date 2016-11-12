@@ -2,7 +2,7 @@
 title: Spoken Word
 date: 2016-08-17 00:00:00 Z
 tags:
-- art
+- top
 layout: post
 subtitle: 
 image: word.jpg

@@ -1,0 +1,15 @@
+<div class="top-events">
+  <h2 class="sidebar-heading sidebar-title text-uppercase text-center">Top events</h2>
+  {% for post in site.posts %}
+  {% if post.priority == "top" %}
+<a href="{{post.url}}">
+<div class="text-center">
+    <img class="img-responsive thumb-image" src="{{site.github.url}}/img/{{post.image}}">
+    <h5 class="sidebar-title">{{post.title}}</h5>
+  </div>
+</a>
+
+  {% endif %}
+  {% endfor %}
+</div>
+</div>
