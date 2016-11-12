@@ -5,9 +5,10 @@ tags:
 - entrepreneurship
 layout: post
 future: true
-subtitle: 
+subtitle:
 image: waka2.jpeg
 comments: true;
+tag: top
 ---
 
 <strong>Time: 4:00PM </strong>
@@ -24,7 +25,7 @@ With a Special Promotion
 <img class="nigga" src="{{site.github.url}}/img/waka1.jpeg">
 
 <style>
-	
+
 	.nigga {
 		height: 220px;
 		width:220px;
