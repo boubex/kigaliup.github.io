@@ -10,7 +10,7 @@
 
 <!-- Facebook metatags -->
   <meta property="og:locale" content="">
-  <meta property="og:url" content="http://upkigali.com/2016/09/08/Creating-the-future.html">
+  <meta property="og:url" content="http://localhost:4000/2016/09/08/Creating-the-future.html">
   <meta property="og:title" content="UpKigali">
   <meta property="og:site_name" content="UpKigali ">
   <meta property="og:description" content="UpKigali is an event marketing website that provides a well built interface to view upcoming and on-going events in Kigali">
@@ -32,10 +32,10 @@
   <meta name="description" content="ABOUT THE EXHIBITION “CREATING FUTURE “">
 
   <link rel="stylesheet" href="/css/style.css">
-  <link rel="canonical" href="http://upkigali.com/2016/09/08/Creating-the-future.html">
-  <link rel="alternate" type="application/rss+xml" title="UpKigali" href="http://upkigali.com/feed.xml">
+  <link rel="canonical" href="http://localhost:4000/2016/09/08/Creating-the-future.html">
+  <link rel="alternate" type="application/rss+xml" title="UpKigali" href="http://localhost:4000/feed.xml">
   <link href="/css/bootstrap.min.css" rel="stylesheet">
-   <link href="/css/ratchet.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/animate.min.css" type="text/css">
   <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
 
@@ -65,61 +65,172 @@
   <body>
 
     <div class="container-fluid content">
-    <nav class="mainNav">
-  <a href="/index.html"><img src="/img/logo.jpg" title="UpKigali" class="pull-left img-responsive"></a>
-  <ul class="pull-right">
-    <!-- <li><a href="event_categories.html" title="" >Event Categories</a></li> -->
     
-    <!-- <li><a href="help.html" title="">Help</a></li> 
-
-    <li><a href="/bra.html" title="">Trending</a></li>
-    <li><a href="/Pres.html" title="">  Press Release </a></li>
-    <li><a href="/categories.html" title="">Categories</a></li>
-
-    -->
-
-    <li><a class="typeform-share button" href="https://upkigali.typeform.com/to/JvRURK" data-mode="1" target="_blank">Post an Event</a>
-<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
-
-
-</li>
+      <!-- <nav  class="main">
+  <ul class="pull-left">
+    <li><a class="text-primary site-title" href="/index.html">UpKigali</a></li>
+  </ul>
+  <ul class="pull-right nav-links">
+    <li><a href="#" class="btn nav-button">Events</a></li>
+    <li><a href="#" class="btn nav-button">Movies</a></li>
+    <li><a href="https://upkigali.typeform.com/to/JvRURK" data-mode="1" class="btn btn-primary">Post an Event</a></li>
   </ul>
 </nav>
 
 
+<!-- mobile -->
+
+
+<nav id="top" id="subNav" class="mobile navbar navbar-default navbar-top navbar-custom">
+       <div class="container">
+           <!-- Brand and toggle get grouped for better mobile display -->
+           <div class="navbar-header page-scroll">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                   <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+               </button>
+               <a class="navbar-brand site-title" href="/index.html">UpKigali</a>
+           </div>
+
+           <!-- Collect the nav links, forms, and other content for toggling -->
+           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="container-fluid nav navbar-nav navbar-right">
+                   <li class="hidden">
+                       <a href="index.html"></a>
+                   </li>
+                   <li >
+                       <a href="#">Events</a>
+                   </li>
+                   <li >
+                       <a href="#">Movies</a>
+                   </li>
+                   <li>
+                       <a href="https://upkigali.typeform.com/to/JvRURK" data-mode="1" class="btn btn-xs btn-primary key-button">Post an event</a>
+                   </li>
+
+
+               </ul>
+           </div>
+           <!-- /.navbar-collapse -->
+       </div>
+       <!-- /.container-fluid -->
+   </nav>
 
 
 
+<style>
+
+.site-title{
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /*padding: 0 !important;
+    margin: 0 !important;*/
+    color: #c9d700 !important;
+}
+
+.site-title:hover{
+  text-decoration: none;
+}
+
+.key-button{
+  margin-bottom: 4px;
+  padding: 1em !important;
+}
+
+nav{
+  border-top: 1px dotted #c9d700;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 5px;
+  color: #fff;
+  min-height: 60px;
+  background-color: #131f28;
+}
+nav ul li{
+  display: inline;
+}
+
+nav a{
+  color: #fff !important;
+}
 
 
 
-<header class="mobileNav bar bar-nav">
-  <a href="/index.html"><img src="/img/logo.jpg" title="UpKigali" class="mobile-img img-responsive"></a>
-  <div class="social-icons-con">
-    
-  <a class="typeform-share button" href="https://upkigali.typeform.com/to/JvRURK" data-mode="1" target="_blank">Post an Event</a>
-<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
+.nav-button{
+  font-weight: 700;
+}
+
+.mobile{
+  margin-bottom: 0 !important;
+  background-color: #131f28 !important;
+  display: ;
+}
+
+.navbar-toggle:hover{
+  background-color: transparent !important;
+}
+
+@media only screen and (max-width: 500px){
+  .main{
+    display: none !important;
+
+  }
+
+  .mobile{
+    display: block !important;
+  }
 
 
-    <!-- <li><a href="https://web.facebook.com/upkigali" title="@upkigali" target="_blank"><i class="fa fa-facebook"></i>Facebook</a></li> -->
-  
-  </div>
-    </header>
+
+}
+</style>
 
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="post-con">
+        <div class="row post-layout">
 
+  <div class="post-content-container col-md-8">
+<div class="post-con">
+  <h3 class="pull-left sidebar-title">Creating Future</h3>
+  <div class="pull-right" style="padding-right: 40px">
+    <ul class="social-media">
+  <li><a href="https://web.facebook.com/upkigali/" target="_blank" class="footer-share facebook"><i class="fa fa-facebook"></i></a></li>
+  <li><a href="#" class="footer-share twitter"><i class="fa fa-twitter"></i></a></li>
+  <li><a href="#" class="footer-share instagram"><i class="fa fa-instagram"></i></a></li>
+</ul>
 
-
-  <div class="post-image" style="background-image: url('/img/photo.jpeg')">
   </div>
+  <!-- begin row -->
+  <div class="row">
 
-
-
+  <div class="post-image col-md-6">
+    <img src="/img/photo.jpeg" class="img-responsive">
+  </div>
+  <div class="col-md-6">
   <div class="post_info">
-    <div class="post_text">
+    <div class="post-info-sidebar">
+
+  <h4 class="post-info-weather post-info-heading">Weather Info</h4>
+  <p class="text-muted">Remember to check the weather on the day of the event</p>
+  <a href="http://www.accuweather.com/en/rw/kigali/293211/weather-forecast/293211" class="aw-widget-legal">
+<!--
+By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at http://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at http://www.accuweather.com/en/privacy.
+-->
+</a><div id="awcc1478960035521" class="aw-widget-current"  data-locationkey="" data-unit="c" data-language="en-us" data-useip="false" data-uid="awcc1478960035521"></div><script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
+
+</div>
+
+  </div>
+</div>
+</div>
+<!-- end row -->
+
+<div class="row">
+
+  <div class="col-md-12">
+    <div class="post_text text-muted" style="font-size: 14px">
+
   <p>ABOUT THE EXHIBITION “CREATING FUTURE “</p>
 
 <p>“CREATING FUTURE “ examines how photographs document and represent Time and Space. This exhibition seeks to unpack the factors that invent new identities and ways of seeing within and they way people think about Rwanda. We also seek to photograph the diverse people and places throughout Rwanda: the country’s ‘unseen’ side that exists independent of and beyond the trauma of genocide.</p>
@@ -132,27 +243,84 @@
 
 <p>Supported by Goethe-Institut Kigali</p>
 
-  <div class="well">
-<ul class="social_icons_posts">
-
-
-<h4>Share with others</h4>
-
-   <li><a target="_blank"  href="https://www.facebook.com/sharer/sharer.php?u=http://upkigali.com/2016/09/08/Creating-the-future.html"><i class="fa fa-facebook"></i>Facebook</a></li>
-   <li><a target="_blank" href="https://twitter.com/intent/tweet?text=Creating Future + http://upkigali.com/2016/09/08/Creating-the-future.html"><i class="fa fa-twitter"></i>Twitter</a></li>
-   
- </ul>
-
 </div>
-
-<style>
-	.social_icons_posts i{
-		padding:10px;
-	}
-</style>
 </div>
 </div>
 
+
+</div>
+
+
+</div>
+
+
+<div class="sidebar col-md-4">
+
+<div class="top-events">
+  <h2 class="sidebar-heading sidebar-title text-uppercase text-center">Top events</h2>
+  
+  
+  
+  
+  
+  
+  
+  
+<a href="/2016/09/09/From-Umbilical-Cord.html">
+<div class="text-center">
+    <img class="img-responsive thumb-image" src="/img/berg.jpg">
+    <h5 class="sidebar-title">From umbilical cord</h5>
+  </div>
+</a>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<a href="/2016/08/17/Spoken-word.html">
+<div class="text-center">
+    <img class="img-responsive thumb-image" src="/img/word.jpg">
+    <h5 class="sidebar-title">Spoken Word</h5>
+  </div>
+</a>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+</div>
+
+</div>
 </div>
 
       </div>
@@ -160,6 +328,28 @@
 
     <footer>
 <div class="row">
+
+
+  <!-- categories -->
+  <div class="col-md-4 column categories">
+    <h4 class="footer-heading">Top Categories</h4>
+    <ul>
+      <li><a href="">Festivals</a></li>
+      <li><a href="">Movies</a></li>
+      <li><a href="">Concerts</a></li>
+      <li><a href="">Kids & Family Events</a></li>
+    </ul>
+
+    <ul class="footer-nav breadcrumb">
+
+      <li><a href="#">About</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Advertise</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </div>
+
+
   <div class="col-md-4 column">
     <h4 class="footer-heading">Get in Touch with Us</h4>
     <ul>
@@ -169,6 +359,23 @@
       <li><a href="#"><i class="fa fa-instagram"></i>Instagram</a> -->
     </ul>
   </div>
+
+  <div class="col-md-3 column">
+    <h4 class="footer-heading">Follow Us</h4>
+    <ul class="social-media">
+  <li><a href="https://web.facebook.com/upkigali/" target="_blank" class="footer-share facebook"><i class="fa fa-facebook"></i></a></li>
+  <li><a href="#" class="footer-share twitter"><i class="fa fa-twitter"></i></a></li>
+  <li><a href="#" class="footer-share instagram"><i class="fa fa-instagram"></i></a></li>
+</ul>
+
+  </div>
+
+  <div class="col-md-1 column top-link">
+    <div class="back-to-top">
+      <a href="#top" class="page-scroll"><i class="fa fa-arrow-circle-up fa-3x"></i></a>
+  </div>
+</div>
+
 </div>
 
 <div class="copyright text-left">
@@ -178,8 +385,12 @@
 
   </div>
 
-  <script src="/js/bootstrap.min.js"></script>
-  <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/smooth.js"></script>
+    <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
+
   </body>
 
 </html>

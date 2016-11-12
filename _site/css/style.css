@@ -1,5 +1,8 @@
+/* Defaults */
+
 body, html{
   height: 100%;
+
 }
 
 body{
@@ -7,7 +10,7 @@ body{
   padding:0;
   font-family: 'helvetica';
   color:#fff;
-  background-color: #a8a8a8;
+  background-color: #f1f1f1;
   list-style: none;
 }
 
@@ -37,72 +40,21 @@ a:hover{
   margin: 0 !important;
 }
 
-nav{
-  height: 120px;
-  margin:0 0 30px 0;
-  position: relative;
-  border-bottom: 1px #f1f1f1 solid;
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  padding: 0;
 }
 
-nav img{
-  height:90px;
-}
-nav a{
-  color: #c8d502 ;
-  text-decoration: none;
-}
 
-nav a:hover{
-  color: #4f4f4f !important;
-  text-decoration: none;
-}
+/* Large feature */
 
-nav ul{
-  padding: 50px 40px 0 0;
-}
-nav li{
-  display: inline;
-
-
-}
-
-.mobileNav{
-  display: none !important;
-  height: 140px !important;
-}
-
-.social-icons-con{
-  margin-top: -8px;
-}
-.social-icons-con ul{
-  width:100%;
-}
-
-.social-icons-con li{
-  padding: 15px;
-}
-
-@media only screen and (max-width:996px ){
-  .mainNav{
-    display: none;
-  }
-
-  .mobileNav{
-    text-align: center;
-    display: block !important;
-  }
-
-  .mobileNav img{
-    margin: 0 auto;
-  }
-
-}
 
 .jumbotron{
   text-align: center;
   background-image: url('../img/header_cover.jpg');
   background-repeat: none;
-  height:500px;
+  max-height:250px;
+  border-radius: 0 !important;
   padding: 50px;
   background-size: cover;
   background-position: center center;
@@ -117,9 +69,25 @@ nav li{
 }
 
 .home{
+  padding: 20px;
   padding-bottom: 100px;
+  background-color: #f1f1f1;
 }
 
+/* index page */
+.posts-wrap{
+  background-color: #fff;
+  padding-bottom: 80px;
+}
+
+.top-events{
+  padding: 20px;
+  background-color: #fff;
+}
+
+.sidebar-title{
+  font-weight: 800;
+}
 .text-container h2{
   color:#fff;
   font-weight: 800;
@@ -139,16 +107,27 @@ button a {
 }
 
 .group_by_time{
-  max-width: 978px;
   margin: 0 auto;
-  padding-left: 10px;
-  padding-right: 10px;
+
 }
 
 .fe_title{
   padding:10px;
 }
 
+.thumb-image{
+  max-height: 200px;
+  margin: 0 auto;
+}
+
+
+/* post-layout */
+
+
+.post-layout{
+  padding: 20px !important ;
+  background-color: #f1f1f1;
+}
 .post-preview{
   height: 200px;
   background-size:cover;
@@ -157,13 +136,25 @@ button a {
 
 }
 
+.post-content-container{
+  background-color: #fff;
+  padding-top: 40px;
+}
+
+.post-con h3{
+  padding: 0 !important;
+  margin: 0 !important;
+  text-transform: uppercase;
+}
+
 .post-con{
+
   clear: both;
   max-width: 1020px;
   margin: 0 auto;
 
   height: auto;
-  background-color: #eefff6;
+
 
 }
 
@@ -175,8 +166,17 @@ button a {
 .post-image{
   background-size: cover;
   background-position: center center;
-  height:400px;
+  min-height: 250px;
+  padding-top:20px;
+
+  clear: both;
 }
+
+.post-image img{
+  min-height: 200px;
+}
+
+
 
 .post:hover{
 
@@ -198,8 +198,7 @@ button a {
 }
 
 .post_info{
-  padding: 50px 0 50px 0;
-  margin: 10px 0 40px 0;
+
 
 }
 .post_text{
@@ -219,6 +218,15 @@ button a {
   text-align:center;
   padding:5px;
 }
+
+@media only screen and (max-width: 991px){
+  .sidebar{
+    display: none !important;
+  }
+}
+
+
+/* end post-layout */
 
 .social_icons{
   position: absolute;
@@ -251,6 +259,7 @@ footer{
 
 .column{
   padding-left: 0 !important;
+
 }
 
 footer li a{
@@ -275,4 +284,73 @@ footer i{
 
 .copyright{
   padding-top: 40px;
+}
+
+.footer-nav{
+  background-color: #282C35 !important;
+}
+.footer-nav li{
+  display: inline;
+}
+
+
+/* social icons */
+
+.social-media li{
+  display: inline;
+
+}
+
+.social-media a{
+  color: #fff;
+}
+.facebook{
+  background-color:#4770b6;
+}
+
+.twitter{
+  background-color: #2dadd6;
+}
+
+.instagram{
+  background-color: #f56040;
+}
+
+.footer-share{
+  width: 72px;
+  padding: 6px;
+  color: #fff !important;
+  height: 32px;
+  display: inline-block;;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.footer-share i{
+  padding: 0 !important;
+
+}
+
+.top-link{
+  min-height: 200px !important;
+}
+
+.back-to-top a{
+  color: #fff !important;
+}
+
+.back-to-top{
+bottom: 0;
+right: 0;
+position: absolute;
+}
+
+@media only screen and (max-width: 991px){
+  .back-to-top{
+    left: 0 !important;
+  }
+
+  .top-link{
+    min-height: 50px !important;
+  }
 }

@@ -4,7 +4,8 @@ date: 2016-08-03 00:00:00 Z
 tags:
 - music
 layout: post
-subtitle: 
+
+subtitle:
 image: dance1.jpg
 comments: true;
 ---

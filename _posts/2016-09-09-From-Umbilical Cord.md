@@ -1,10 +1,11 @@
 ---
 title: From umbilical cord
-date: 2016-09-09 00:00:00 Z
+date: 2016-09-09 00:00:00
+tag: top
 tags:
 - art
 layout: post
-subtitle: 
+subtitle:
 image: berg.jpg
 comments: true;
 ---
