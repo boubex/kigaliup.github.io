@@ -1,16 +1,5 @@
 ---
-title: Hip Hop classes this saturday at Waka Fitness
-date: 2016-11-12 00:00:00 Z
-
-layout: post
-future: true
-subtitle: 
-image: waka2.jpeg
-<<<<<<< HEAD
-priority: top
-=======
->>>>>>> fd65ea39055a8da38af4cc594dd55fdaf2ad2c2f
-comments: true;
+title: '2016 11 12 Hip Hop Classes This Saturday At Waka Fitness '
 ---
 
 <strong>Time: 4:00PM </strong>
