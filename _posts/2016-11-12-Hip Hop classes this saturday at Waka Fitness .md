@@ -4,9 +4,12 @@ date: 2016-11-12 00:00:00 Z
 
 layout: post
 future: true
-subtitle:
+subtitle: 
 image: waka2.jpeg
+<<<<<<< HEAD
 priority: top
+=======
+>>>>>>> fd65ea39055a8da38af4cc594dd55fdaf2ad2c2f
 comments: true;
 ---
 
