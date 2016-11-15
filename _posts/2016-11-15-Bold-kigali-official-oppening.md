@@ -1,8 +1,10 @@
 ---
+title: Bold Kigali Official Oppening
+date: 2016-11-15 00:00:00 Z
 layout: post
 future: true
 subtitle: 
-image: Bold.png 
+image: Bold.png
 priority: top
 comments: true;
 ---
