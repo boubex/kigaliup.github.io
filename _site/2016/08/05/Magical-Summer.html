@@ -67,99 +67,141 @@
 
     <div class="container-fluid content">
 
-      <nav class="mainNav">
-  <a href="/index.html"><img src="/img/logo.jpg" title="UpKigali" class="pull-left img-responsive"></a>
-  <ul class="pull-right">
-    <!-- <li><a href="event_categories.html" title="" >Event Categories</a></li> -->
-
-    <!-- <li><a href="help.html" title="">Help</a></li>
-
-    <li><a href="/bra.html" title="">Trending</a></li>
-    <li><a href="/Pres.html" title="">  Press Release </a></li>
-    <li><a href="/categories.html" title="">Categories</a></li>
-
-    -->
-
-    <li><a style="padding: 1em; color: #fff !important" class="btn btn-primary typeform-share" href="https://upkigali.typeform.com/to/JvRURK" data-mode="1" target="_blank">Post an Event</a>
-<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
-
-
-</li>
+      <!-- <nav  class="main">
+  <ul class="pull-left">
+    <li><a class="text-primary site-title" href="/index.html">UpKigali</a></li>
+  </ul>
+  <ul class="pull-right nav-links">
+    <li><a href="#" class="btn nav-button">Events</a></li>
+    <li><a href="#" class="btn nav-button">Movies</a></li>
+    <li><a href="https://upkigali.typeform.com/to/JvRURK" data-mode="1" class="btn btn-primary">Post an Event</a></li>
   </ul>
 </nav>
 
 
+<!-- mobile -->
+
+
+<nav id="top" id="subNav" class="mobile navbar navbar-default navbar-top navbar-custom">
+       <div class="container">
+           <!-- Brand and toggle get grouped for better mobile display -->
+           <div class="navbar-header page-scroll">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                   <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+               </button>
+               <a class="navbar-brand site-title" href="/index.html">UpKigali</a>
+           </div>
+
+           <!-- Collect the nav links, forms, and other content for toggling -->
+           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="container-fluid nav navbar-nav navbar-right">
+                   <li class="hidden">
+                       <a href="index.html"></a>
+                   </li>
+                   <li >
+                       <a href="/index.html">Events</a>
+                   </li>
+                   <li >
+                       <a href="#">Movies</a>
+                   </li>
+                   <li>
+                       <a href="https://upkigali.typeform.com/to/JvRURK" data-mode="1" class="btn btn-xs btn-primary key-button">Post an event</a>
+                   </li>
+
+
+               </ul>
+           </div>
+           <!-- /.navbar-collapse -->
+       </div>
+       <!-- /.container-fluid -->
+   </nav>
 
 
 
+<style>
 
-
-
-<header class="mobileNav">
-  <a href="/index.html"><img src="/img/logo.jpg" title="UpKigali" class="mobile-img img-responsive"></a>
-  <div class="social-icons-con">
-
-  <a class="typeform-share btn btn-primary" style="padding: 1em; color: #fff !important" href="https://upkigali.typeform.com/to/JvRURK" data-mode="1" target="_blank">Post an Event</a>
-<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
-
-
-    <!-- <li><a href="https://web.facebook.com/upkigali" title="@upkigali" target="_blank"><i class="fa fa-facebook"></i>Facebook</a></li> -->
-
-  </div>
-    </header>
-
-    <style>
-
-    .mobileNav{
-      min-height: 240px;
-    }
-    nav{
-  height: 120px;
-  margin:0 0 30px 0;
-  position: relative;
-  border-bottom: 1px #f1f1f1 solid;
+.site-title{
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /*padding: 0 !important;
+    margin: 0 !important;*/
+    color: #c9d700 !important;
 }
 
-nav img{
-  height:90px;
-}
-nav a{
-  color: #c8d502 ;
+.site-title:hover{
   text-decoration: none;
 }
 
-nav a:hover{
-  color: #4f4f4f !important;
-  text-decoration: none;
+.key-button{
+  margin-bottom: 4px;
+  color: #fff !important;
+  padding: 1em !important;
 }
 
-nav ul{
-  padding: 50px 40px 0 0;
+nav{
+  border-top: 1px dotted #c9d700;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 5px;
+  color: #fff;
+  min-height: 60px;
+  background-color:  #131f28 !important ;
 }
-nav li{
+nav ul li{
   display: inline;
+}
 
+nav a{
+  color: #fff !important;
+
+  font-weight: 700;
+}
+
+
+
+.nav-button{
+  font-weight: 700;
+  color: #fff;
+  
+}
+
+.mobile{
+  min-height: 60px !important;
+  margin-bottom: 0 !important;
+  background-color:  #131f28 !important;
 
 }
 
-.mobileNav{
-  display: none !important;
-  height: 140px !important;
+.navbar-toggle{
+background-color:  #286090;
 }
-@media only screen and (max-width:996px ){
-  .mainNav{
-    display: none;
+.navbar-toggle:hover{
+  background-color: #286090 !important;
+}
+
+@media only screen and (max-width: 500px){
+  .main{
+    display: none !important;
+
   }
 
-  .mobileNav{
-    text-align: center;
+  .mobile{
     display: block !important;
   }
 
-  .mobileNav img{
-    margin: 0 auto;
+  .mobile img{
+    float: left;
   }
 
+
+
+}
+
+@media only screen and (max-width:996px){
+  .mobile{
+    padding-bottom: 100px;
+  }
 }
 </style>
 
