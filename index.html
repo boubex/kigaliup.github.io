@@ -19,7 +19,7 @@ image: header_cover.jpg
 <div class="group_by_time" id="future_events">
   <h3 class="fe_title">Upcoming Events</h3><hr/>
    <div class="row">
-  {% for post in site.posts reversed limit: 4%}
+  {% for post in site.posts reversed limit: 6 %}
 
        {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
 
@@ -55,7 +55,7 @@ image: header_cover.jpg
 <div class="group_by_time">
   <h3 class="fe_title">Ongoing and Past Events</h3><hr/>
    <div class="row">
-  {% for post in site.posts limit: 6%}
+  {% for post in site.posts limit: 6 %}
 
 
        {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
