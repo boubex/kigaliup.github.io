@@ -1,6 +1,10 @@
 ---
-title: 2016 11 15 Bold Kigali Official Oppening
-date: 2016-11-15 19:32:25.921000000 Z
+layout: post
+future: true
+subtitle: 
+image: Bold.png 
+priority: top
+comments: true;
 ---
 
 Bold was originally founded in Kampala, Uganda, over 4 years ago. We are an award-winning platform for African designers, retailing designer collections from over 9 African countries. 
