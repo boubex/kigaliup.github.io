@@ -90,8 +90,9 @@
                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                </button>
-               <a class="navbar-brand site-title" href="/index.html"></a>
-               <img src="img/nigga.png">
+               <a class="navbar-brand site-title" href="/index.html">
+               <img src="/img/nigga.png">
+               </a>
            </div>
 
            <!-- Collect the nav links, forms, and other content for toggling -->
@@ -123,11 +124,12 @@
 <style>
 
 .site-title{
-    font-size: 26px;
+    
     font-weight: 700;
     text-transform: uppercase;
     /*padding: 0 !important;
     margin: 0 !important;*/
+    padding: 0 !important;
     color: #c9d700 !important;
 }
 
@@ -169,7 +171,8 @@ nav a{
 }
 
 .mobile{
-  min-height: 60px !important;
+  padding-bottom: 5px !important;
+  min-height: 60px;
   margin-bottom: 0 !important;
   background-color:  #131f28 !important;
 
@@ -190,6 +193,8 @@ background-color:  #286090;
 
   .mobile{
     display: block !important;
+    min-height: 150px;
+    padding-top: 0 !important;
   }
 
   .mobile img{
@@ -198,6 +203,13 @@ background-color:  #286090;
 
 
 
+}
+
+@media only screen and (max-width: 767px){
+  .mobile{
+    min-height: 100px;
+    padding-bottom: 5px;
+  }
 }
 
 
