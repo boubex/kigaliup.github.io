@@ -1,12 +1,5 @@
 ---
-title: Human-Centered Design & Business Model Canvas
-date: 2016-11-19 00:00:00 Z
-layout: post
-future: true
-subtitle: 
-image: inkomo.jpg
-priority: top
-comments: false;
+title: 2016 11 19 Inkomo
 ---
 
 It is The Global Entrepreneurship Week! A great opportunity for business owners and aspiring entrepreneurs to meet, celebrate and learn from each other to better their ventures.

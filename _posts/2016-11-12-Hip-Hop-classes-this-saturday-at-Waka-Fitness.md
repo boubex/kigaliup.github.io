@@ -5,7 +5,6 @@ layout: post
 future: true
 subtitle: 
 image: waka2.jpeg
-priority: top
 comments: true;
 ---
 
