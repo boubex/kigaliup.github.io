@@ -14,9 +14,10 @@ Great news my people!!the first and only dance camp in Rwanda(for this holiday p
 <strong>Time<strong></strong>
 
 November 21 – December 17
-Dec 3 at 3 PM to Dec 4 at 6 PM
 
 
 <strong>Place</strong>
 
 Club Rfiki Nyamirambo -2KN 266 Ave,Kigali,Rwanda
+
+<strong>For more info contact +250783126576 </strong>
