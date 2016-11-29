@@ -7,7 +7,7 @@ layout: post
 future: true
 label: highlight
 width: 3
-subtitle:
+subtitle: 
 image: freedance.jpg
 priority: top
 comments: true;
