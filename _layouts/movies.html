@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<div class="row post-layout">
+
+  <div class="post-content-container col-md-8">
+<div class="post-con">
+  <h3 class="pull-left sidebar-title">{{page.title}}</h3>
+  <div class="pull-right" style="padding-right: 40px">
+    {% include social-icons.html %}
+  </div>
+  <!-- begin row -->
+  <div class="row">
+
+  <div class="post-image col-md-6">
+    <img src="{{site.github.url}}/img/{{page.image}}" class="img-responsive">
+  </div>
+  <div class="col-md-6">
+  <div class="post_info">
+    {% include movies-info.html %}
+  </div>
+</div>
+</div>
+<!-- end row -->
+
+<div class="row">
+
+  <div class="col-md-12">
+    <div class="post_text text-muted" style="font-size: 14px">
+      <hr/>
+<h2 style="font-weight:400;color:#1f1f1f">Plot</h2>
+  {{content}}
+
+</div>
+
+</div>
+
+<div class="col-md-12">
+
+  <div id="trailer" class="trailer_wrap" style="min-height:200px; padding-bottom: 50px">
+    <hr/>
+    <h2>Trailer</h2>
+    {{page.trailer}}
+
+  </div>
+</div>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+<div class="sidebar col-md-4">
+
+{% include movies_sidebar.html %}
+</div>
+</div>
