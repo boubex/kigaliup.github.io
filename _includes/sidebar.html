@@ -1,6 +1,6 @@
 <div class="top-events">
   <h2 class="sidebar-heading sidebar-title text-uppercase text-center">Top events</h2>
-  {% for post in site.events %}
+  {% for post in site.categories.events %}
   {% if post.priority == "top" %}
 <a href="{{post.url}}">
 <div class="text-center">
