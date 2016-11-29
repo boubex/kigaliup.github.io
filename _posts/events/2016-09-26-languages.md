@@ -1,13 +1,14 @@
 ---
 title: Language courses are back!
 date: 2016-09-26 00:00:00 Z
+categories:
+- events
 tags:
 - art
 layout: post
-subtitle:
+subtitle: 
 image: fra.png
 comments: true;
-category: events
 ---
 
 Don't miss the registrations to the all new French and Kinyarwanda language courses with the Institut français du Rwanda!

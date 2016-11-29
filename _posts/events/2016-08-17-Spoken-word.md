@@ -1,13 +1,14 @@
 ---
 title: Spoken Word
 date: 2016-08-17 00:00:00 Z
+categories:
+- events
 tags:
 - top
 layout: post
-subtitle:
+subtitle: 
 image: word.jpg
 comments: true;
-category: events
 ---
 
 <strong>Time: 7:30 till late!!</strong>

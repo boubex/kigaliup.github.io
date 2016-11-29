@@ -1,13 +1,14 @@
 ---
 title: Creating Future
 date: 2016-09-08 00:00:00 Z
+categories:
+- events
 tags:
 - asr
 layout: post
-subtitle:
+subtitle: 
 image: photo.jpeg
 comments: true;
-category: events
 ---
 
 ABOUT THE EXHIBITION “CREATING FUTURE “

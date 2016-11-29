@@ -1,13 +1,14 @@
 ---
 title: From umbilical cord
 date: 2016-09-09 00:00:00 Z
+categories:
+- events
 tags:
 - top
 layout: post
-subtitle:
+subtitle: 
 image: berg.jpg
 comments: true;
-category: events
 ---
 
 <strong>Time: 5:00 till late!!</strong>
