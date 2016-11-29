@@ -1,11 +1,12 @@
 ---
 title: Spring Into Summer
 date: 2016-07-30 00:00:00 Z
+categories:
+- events
 tags:
 - music
 layout: post
 image: u.jpg
-category: events
 comments: true;
 ---
 

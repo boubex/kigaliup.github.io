@@ -1,13 +1,14 @@
 ---
 title: Barge Party 2016
 date: 2016-08-20 00:00:00 Z
+categories:
+- events
 tags:
 - music
 layout: post
-subtitle:
+subtitle: 
 image: kivu.jpeg
 comments: true;
-category: events
 ---
 
 People of the World,

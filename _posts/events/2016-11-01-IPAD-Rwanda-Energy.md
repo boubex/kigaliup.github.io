@@ -1,14 +1,15 @@
 ---
 title: IPAD Rwanda Energy Infrastructure Forum
 date: 2016-11-01 00:00:00 Z
+categories:
+- events
 tags:
 - entrepreneurship
 layout: post
 future: true
-subtitle:
+subtitle: 
 image: ipad.jpg
 comments: true;
-category: events
 ---
 
 iPAD Rwanda is a networking investment meeting to demonstrate the proactive nature of Rwanda, looking specifically at power and infrastructure.

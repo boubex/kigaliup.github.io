@@ -1,13 +1,14 @@
 ---
 title: Pimp my brand
 date: 2016-08-24 00:00:00 Z
+categories:
+- events
 tags:
 - entrepreneurship
 layout: post
-subtitle:
+subtitle: 
 image: pimp.jpeg
 comments: true;
-category: events
 ---
 
 In today’s ever-dynamic world, branding is taking an all new shape.
