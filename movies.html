@@ -26,6 +26,7 @@ Description: Get to know about the movies playing at a cinema near you
         <h1>{{post.title}}</h1>
         <h4>{{post.description}}</h4>
         <a href="{{post.url}}#trailer" class="trailer-btn btn btn-outline">View Trailer</a>
+        <button class="pull-right trailer-btn btn btn-outline btn-success">{% if post.status == 'showing' %}In Theaters Now{% elsif post.status == 'upcoming' %}Coming Soon{% endif %}</button>
         </div>
 
       </div>
