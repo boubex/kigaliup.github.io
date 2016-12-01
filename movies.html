@@ -16,7 +16,7 @@ Description: Get to know about the movies playing at a cinema near you
     <div class="big_deal col-md-8 lg_feature_child">
       <section>
       {% for post in site.categories.movies %}
-      {% if post.title contains 'Fantastic' %}
+      {% if post.title contains 'Accountant' %}
       <a class="post_link" href="{{post.url}}">
         <div class="bg-wrap">
       <div class="jumbotron" style="background-image: url('{{site.github.url}}/img/{{post.image}}')">
@@ -43,16 +43,67 @@ Description: Get to know about the movies playing at a cinema near you
         <h2 class="section-heading">Latest Movie Releases</h2>
         <div class="movie-posters-wrap">
           <div class="embedded-movies row">
-            {% for post in site.categories.movies limit:3 %}
+            {% for post in site.categories.movies limit: 3 %}
               {% if post.age == 'latest' %}
 
-              <div class="box_wrap col-md-4">
+              <div class="col-md-4 col-md-offset-0">
                   <a href="{{post.url}}">
-                  <div class="movie_poster text-center" style="position: relative; background-image: url('{{site.github.url}}/img/{{post.image}}')">
-
+                  <div class="box_wrap" >
+                    <div class="movie_poster" style="position: relative; background-image: url('{{site.github.url}}/img/{{post.image}}')">
+                    </div>
+                    <h4 style="font-size:16px; font-weight: 700">{{post.title}}</h4>
                   </div>
+
                   </a>
               </div>
+
+
+              <!-- <div class="col-md-4 ">
+                <a href="{{post.url}}">
+                  <div class="movie_poster" style="background-image:url('{{site.github.url}}/img/{{post.image}}')">
+                  </div>
+                    <h4 style="font-size:16px; font-weight: 700">{{post.title}}</h4>
+                </a>
+              </div>
+ -->
+
+
+              {% endif %}
+              {% endfor %}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="latest">
+      <div class="showing-wrapper">
+        <h2 class="section-heading">Now Showing</h2>
+        <div class="movie-posters-wrap">
+          <div class="embedded-movies row">
+            {% for post in site.categories.movies limit: 6 %}
+              {% if post.status == 'showing' %}
+
+              <div class="col-md-6 col-md-offset-0">
+                  <a href="{{post.url}}">
+                  <div class="box_wrap" >
+                    <div class="movie_poster" style="position: relative; background-image: url('{{site.github.url}}/img/{{post.image}}')">
+                    </div>
+                    <h4 style="font-size:16px; font-weight: 700">{{post.title}}</h4>
+                  </div>
+
+                  </a>
+              </div>
+
+
+              <!-- <div class="col-md-4 ">
+                <a href="{{post.url}}">
+                  <div class="movie_poster" style="background-image:url('{{site.github.url}}/img/{{post.image}}')">
+                  </div>
+                    <h4 style="font-size:16px; font-weight: 700">{{post.title}}</h4>
+                </a>
+              </div>
+ -->
+
 
               {% endif %}
               {% endfor %}
@@ -64,6 +115,8 @@ Description: Get to know about the movies playing at a cinema near you
 
     </div>
 
+
+
     <div class="side_chick col-md-4 lg_feature_child">
       {% for post in site.categories.movies %}
       {% if post.tag == 'priority' %}
@@ -73,6 +126,8 @@ Description: Get to know about the movies playing at a cinema near you
     </div>
   </div>
 </div>
+
+
 
 
 
@@ -208,14 +263,13 @@ h1{
 }
 
 .section-heading{
+  padding-left: 15px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 
-.box_wrap{
-  padding: 0 15px !important;
-}
+
 .movie_poster{
   height: 250px;
   background-size: cover;
@@ -228,6 +282,8 @@ h1{
 .movie_poster:hover{
   border-color: #c8d502;
 }
+
+
 
 
 </style>
