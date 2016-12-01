@@ -43,13 +43,13 @@ Description: Get to know about the movies playing at a cinema near you
         <h2 class="section-heading">Latest Movie Releases</h2>
         <div class="movie-posters-wrap">
           <div class="embedded-movies row">
-            {% for post in site.categories.movies %}
-              {% if post.age == 'latest' limit:3 %}
+            {% for post in site.categories.movies limit:3 %}
+              {% if post.age == 'latest' %}
 
               <div class="box_wrap col-md-4">
                   <a href="{{post.url}}">
                   <div class="movie_poster text-center" style="position: relative; background-image: url('{{site.github.url}}/img/{{post.image}}')">
-                  
+
                   </div>
                   </a>
               </div>
@@ -223,6 +223,10 @@ h1{
   border-radius: 4px;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.movie_poster:hover{
+  border-color: #c8d502;
 }
 
 
