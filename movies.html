@@ -118,11 +118,7 @@ Description: Get to know about the movies playing at a cinema near you
 
 
     <div class="side_chick col-md-4 lg_feature_child">
-      {% for post in site.categories.movies %}
-      {% if post.tag == 'priority' %}
-
-      {% endif %}
-      {% endfor %}
+      {% include movies_sidebar.html %}
     </div>
   </div>
 </div>
@@ -281,6 +277,10 @@ h1{
 
 .movie_poster:hover{
   border-color: #c8d502;
+}
+
+.side_chick{
+  padding: 0 10px;
 }
 
 
