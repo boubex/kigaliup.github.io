@@ -1,7 +1,7 @@
 <div class="top-events" style="background-color: #131f28; padding-top: 5px !important; font-family:'Arimo'; padding-left: 0 !important; color: #f1f1f1">
   <h2 class="sidebar-heading sidebar-title text-center">Top Events</h2>
   <div class="row">
-  {% for post in site.categories.events limit: 3 %}
+  {% for post in site.categories.events limit:3 %}
   {% if post.priority == "top" %}
 
   <div class="embedded">
