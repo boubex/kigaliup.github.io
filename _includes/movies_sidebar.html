@@ -1,15 +1,45 @@
-<div class="top-events">
+<div class="top-events" style="padding-left: 0 !important">
   <h2 class="sidebar-heading sidebar-title text-uppercase text-center">Movies This Week</h2>
+  <div class="row">
   {% for post in site.categories.movies %}
   {% if post.priority == "top" %}
-<a href="{{post.url}}">
-<div class="text-center">
-    <img class="img-responsive thumb-image" src="{{site.github.url}}/img/{{post.image}}">
-    <h5 class="sidebar-title">{{post.title}}</h5>
+
+  <div class="embedded">
+  <a href="{{post.url}}">
+  <div class="col-md-12 movie_poster" style="background-image: url('{{site.github.url}}/img/{{post.image}}')">
+
   </div>
-</a>
+    <h5 class="btn btn-outline sidebar-title">{{post.title}}</h5>
+  </a>
+</div>
+<hr/>
 
   {% endif %}
   {% endfor %}
 </div>
 </div>
+
+
+<style>
+.embedded{
+  padding: 0 15px;
+  text-align: center !important;
+}
+
+.top-events .btn{
+  padding: 6px 12px !important;
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+.embedded h5{
+  margin: 10px 0;
+}
+
+.movie_poster{
+  height: 250px;
+  background-size: cover;
+  background-position: center center;
+}
+
+</style>

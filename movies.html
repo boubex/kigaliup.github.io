@@ -14,8 +14,9 @@ Description: Get to know about the movies playing at a cinema near you
 <div class="movies_lg_feature">
   <div class="row">
     <div class="big_deal col-md-8 lg_feature_child">
+      <section>
       {% for post in site.categories.movies %}
-      {% if post.title contains 'Moana' %}
+      {% if post.title contains 'Fantastic' %}
       <a class="post_link" href="{{post.url}}">
         <div class="bg-wrap">
       <div class="jumbotron" style="background-image: url('{{site.github.url}}/img/{{post.image}}')">
@@ -34,6 +35,33 @@ Description: Get to know about the movies playing at a cinema near you
 
       {% endif %}
       {% endfor %}
+    </section>
+
+
+    <section class="latest">
+      <div class="latest-wrapper">
+        <h2 class="section-heading">Latest Movie Releases</h2>
+        <div class="movie-posters-wrap">
+          <div class="embedded-movies row">
+            {% for post in site.categories.movies %}
+              {% if post.age == 'latest' limit:3 %}
+
+              <div class="box_wrap col-md-4">
+                  <a href="{{post.url}}">
+                  <div class="movie_poster text-center" style="position: relative; background-image: url('{{site.github.url}}/img/{{post.image}}')">
+                  
+                  </div>
+                  </a>
+              </div>
+
+              {% endif %}
+              {% endfor %}
+          </div>
+        </div>
+      </div>
+    </section>
+
+
     </div>
 
     <div class="side_chick col-md-4 lg_feature_child">
@@ -46,7 +74,34 @@ Description: Get to know about the movies playing at a cinema near you
   </div>
 </div>
 
+
+
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <style>
 
@@ -54,7 +109,7 @@ h1{
   margin: 0;
 }
 .movies_wrapper{
-
+  padding: 0 20px;
   max-width: 1080px;
   margin: 0 auto;
 }
@@ -65,8 +120,8 @@ h1{
 .movies_header{
 
   padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  /*padding-left: 20px;
+  padding-right: 20px;*/
 
 }
 
@@ -106,8 +161,8 @@ h1{
 
 .movies-lg-feature-details{
 
-  padding: 0 20px;
-  min-height: 250px !important;
+  /*padding: 0 20px;*/
+  min-height: 200px !important;
 }
 
 .movies-lg-feature-details .details_wrapper{
@@ -141,10 +196,33 @@ h1{
 
 
 .bg-wrap{
-  padding: 0 20px;
+  /*padding: 0 20px;*/
 }
 .details_wrapper a:hover{
   color: #c8d502 !important;
+}
+
+.latest{
+  min-height: 250px;
+  padding-bottom: 50px;
+}
+
+.section-heading{
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+
+.box_wrap{
+  padding: 0 15px !important;
+}
+.movie_poster{
+  height: 250px;
+  background-size: cover;
+  border: 2px solid #a8a8a8;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 

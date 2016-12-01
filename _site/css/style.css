@@ -240,6 +240,10 @@ iframe{
   .sidebar{
     display: none !important;
   }
+
+  .side_chick{
+    display: none !important;
+  }
 }
 
 
