@@ -12,6 +12,7 @@ label: highlight
 priority: top
 comments: true;
 ---
+
 Experience our city's rich cultural diversity and celebrate International Migrants Day!
 
 Featuring Urban Boyz - Makanyaga Moutcho - Makumbi Sound - Amizero - Tito Al's trio feat Prime - Eric OneKey - Deo Munyakazi - Andy Bumuntu - Moyize- JDub - Niyigana Yacynthe & Namukinzinte Eugene - Interactive Performances by Amizero - Compagnie and many more!
