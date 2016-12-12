@@ -10,7 +10,7 @@ body{
   padding:0;
   font-family: 'helvetica';
   color:#fff;
-  background-image: url(/img/bacc.png);
+  background-image: url('{{site.github.url}}/img/bacc.png');
   list-style: none;
 }
 
