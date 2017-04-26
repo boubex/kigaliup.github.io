@@ -1,11 +1,11 @@
 ---
 title: Book Launch 'The ABC'S of Rwanda'
-date: 2017-4-29 00:00:00 Z
+date: 2017-04-29 00:00:00 Z
 categories:
 - events
 layout: post
 future: true
-subtitle:
+subtitle: 
 image: abcs.jpg
 width: 4
 label: highlight
