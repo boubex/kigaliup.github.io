@@ -16,8 +16,7 @@ defaults:
     reading_time: true
     show_tags: true
     show_categories: true
-description: UpKigali is an event marketing website showcasing local events going
-  on or upcoming in Kigali.
+description: fata gahunda with upkigali
 url: http://upkigali.com
 markdown: kramdown
 future: true
