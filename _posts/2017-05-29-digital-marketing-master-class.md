@@ -1,10 +1,11 @@
 ---
 title: Digital Marketing Master Class
+date: 2017-05-29 00:00:00 Z
 categories:
 - events
 layout: post
 future: true
-subtitle:
+subtitle: 
 image: digital-marketing-master-class.jpg
 width: 4
 label: highlight

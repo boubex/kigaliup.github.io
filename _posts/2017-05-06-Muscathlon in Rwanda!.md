@@ -1,21 +1,17 @@
 ---
 title: Muscathlon in Rwanda!
-date: 2017-5-06 00:00:00 Z
+date: 2017-05-06 00:00:00 Z
 categories:
 - events
 layout: post
 future: true
-subtitle:
+subtitle: 
 image: norway.jpg
 width: 4
 label: highlight
 priority: top
 comments: true;
 ---
-
-
-
-
 
 Muscathlon in Rwanda!
 

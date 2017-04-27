@@ -1,11 +1,11 @@
 ---
 title: 2nd East African Manufacturing Business Summit and Exhibition
-date: 2017-5-06 00:00:00 Z
+date: 2017-05-06 00:00:00 Z
 categories:
 - events
 layout: post
 future: true
-subtitle:
+subtitle: 
 image: eaa.jpg
 width: 4
 label: highlight
