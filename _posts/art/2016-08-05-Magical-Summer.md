@@ -1,11 +1,12 @@
 ---
 title: Magical Summer
 date: 2016-08-05 00:00:00 Z
+categories:
+- art
 layout: post
 subtitle: 
 image: menya.jpg
 comments: true;
-category: art
 ---
 
 <strong>Time:3:00pm till late !!!!

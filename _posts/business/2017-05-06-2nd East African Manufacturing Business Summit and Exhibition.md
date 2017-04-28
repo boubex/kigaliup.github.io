@@ -1,6 +1,8 @@
 ---
 title: 2nd East African Manufacturing Business Summit and Exhibition
 date: 2017-05-06 00:00:00 Z
+categories:
+- business
 layout: post
 future: true
 subtitle: 
@@ -9,7 +11,6 @@ width: 4
 label: highlight
 priority: top
 comments: true;
-category: business
 ---
 
 The 2nd East African Manufacturing Business Summit and Exhibition, co-organized by the East African Business Council (EABC) and the East African Community (EAC), is scheduled as a three day event to take place from 23rd to 25th of May 2017 in Kigali, Rwanda. This high-level conference is co-hosted by the Rwanda Association of Manufacturers (RAM) and the Rwandan Ministry of Trade Industry & EAC Affairs and is also strongly supported by all national Manufacturers' Associations from the EAC partner States such as Industrial Association of Burundi (AIB), Kenya Association of Manufacturers (KAM), Tanzania Confederation of Industries (TIC) and Uganda Manufacturers Association (UMA).
