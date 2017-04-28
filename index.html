@@ -1,5 +1,5 @@
 ---
-title: Giving you Gahundas since 2016 AD
+title: fata gahunda with upkigali
 layout: default
 image: header_cover.jpg
 ---
@@ -17,87 +17,21 @@ image: header_cover.jpg
 <div class="row homepage">
   <div class="col-md-12 posts-wrap">
 <div class="group_by_time" id="future_events">
-  <h3 class="fe_title">Upcoming Events</h3><hr/>
-   <div class="row">
 
 
-  {% for post in site.posts reversed limit: 12 %}
-
+{% include category-nav.html %}
 
 
 
-       {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
-
-       {% if blogDate >= currentDate %}
-       <div class="col-md-4 post">
-         <a href="{{ post.url | prepend: site.github.url }}">
-
-           <div class="post-preview" style="background-image:url({{site.github.url}}/img/{{post.image}});">
-
-           </div>
-
-         </a>
-         <div class="post_options">
-           <ul class="social_icons">
-
-           <li class="post_title">{{post.title}}</li><br>
-           <li><a target="_blank"  href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{post.url}}"><i class="fa fa-facebook"></i></a></li>
-           <li><a target="_blank"  href="https://twitter.com/intent/tweet?text={{post.title}} + {{site.url}}{{post.url}}"><i class="fa fa-twitter"></i></a></li>
-
-         </ul>
-         </div>
-
-       </div>
 
 
-       {% endif %}
 
-{% endfor %}
+
+</div>
+</div>
 </div>
 </div>
 
-
-<div class="group_by_time">
-  <h3 class="fe_title">Ongoing and Past Events</h3><hr/>
-   <div class="row">
-
-
-  {% for post in site.posts limit: 12 %}
-
-
-
-
-       {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
-
-       {% if blogDate < currentDate %}
-
-           <div class="col-md-4 post">
-             <a href="{{ post.url | prepend: site.github.url }}">
-
-               <div class="post-preview" style="background-image:url({{site.github.url}}/img/{{post.image}});">
-
-               </div>
-
-             </a>
-             <div class="post_options">
-               <ul class="social_icons">
-
-               <li class="post_title">{{post.title}}</li><br>
-               <li><a target="_blank"  href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{post.url}}"><i class="fa fa-facebook"></i></a></li>
-               <li><a target="_blank"  href="https://twitter.com/intent/tweet?text={{post.title}} + {{site.url}}{{post.url}}"><i class="fa fa-twitter"></i></a></li>
-
-             </ul>
-             </div>
-
-           </div>
-
-       {% endif %}
-
-{% endfor %}
-</div>
-</div>
-
-</div>
 
 
 <!-- <div class="sidebar col-md-4 ">

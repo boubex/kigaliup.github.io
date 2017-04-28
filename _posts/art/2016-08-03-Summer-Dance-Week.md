@@ -1,14 +1,11 @@
 ---
 title: Summer Dance Week
 date: 2016-08-03 00:00:00 Z
-categories:
-- events
-tags:
-- music
 layout: post
 subtitle: 
 image: dance1.jpg
 comments: true;
+category: art
 ---
 
 <strong>Time:8:00pm till late !!!!

@@ -1,8 +1,6 @@
 ---
 title: IAES Rwanda Edition
 date: 2017-07-25 00:00:00 Z
-categories:
-- events
 layout: post
 future: true
 subtitle: 
@@ -11,6 +9,7 @@ width: 4
 label: highlight
 priority: top
 comments: true;
+category: business
 ---
 
 IAES Rwanda Edition will bring together International & Local Institutions looking to set up strategic partnerships and collaborations, meet & appoint carefully screened Education consultants, meet final year high school students, college students, graduates, working professionals looking for higher education opportunities abroad.

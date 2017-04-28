@@ -1,14 +1,11 @@
 ---
 title: Gentle Yoga
 date: 2016-08-21 00:00:00 Z
-categories:
-- events
-tags:
-- art
 layout: post
 subtitle: 
 image: yoga.jpg
 comments: true;
+category: art
 ---
 
 <strong>Time: 5:00 pm to 8:00 pm</strong>

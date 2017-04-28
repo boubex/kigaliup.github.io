@@ -1,14 +1,11 @@
 ---
 title: The Anticipated Rays
 date: 2016-08-05 00:00:00 Z
-categories:
-- events
-tags:
-- art
 layout: post
 subtitle: 
 image: art12.jpg
 comments: true;
+category: art
 ---
 
 <strong>Time:6:00pm till late !!!!
