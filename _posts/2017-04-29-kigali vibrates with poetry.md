@@ -1,13 +1,14 @@
 ---
 title: Kigali vibrates with Poetry, 7 Edition
 date: 2017-04-29 00:00:00 Z
+categories:
+- art
 layout: post
 future: true
 subtitle: 
 image: vibrate.jpg
 width: 4
 label: highlight
-category: art
 priority: top
 comments: true;
 ---
