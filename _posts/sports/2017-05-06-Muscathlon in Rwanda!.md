@@ -1,6 +1,8 @@
 ---
 title: Muscathlon in Rwanda!
 date: 2017-05-06 00:00:00 Z
+categories:
+- sports
 layout: post
 future: true
 subtitle: 
@@ -9,7 +11,6 @@ width: 4
 label: highlight
 priority: top
 comments: true;
-category: sports
 ---
 
 Muscathlon in Rwanda!

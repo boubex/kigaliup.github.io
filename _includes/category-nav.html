@@ -1,4 +1,4 @@
-<ul class="nav nav-tabs">
+<ul class="nav nav-tabs" style="margin-top: 3em">
    <li class="active"><a data-toggle="tab" href="#home">Art&culture</a></li>
   <!-- <li><a data-toggle="tab" href="#menu1">Art&culture</a></li> -->
    <li><a data-toggle="tab" href="#menu3">Business</a></li>
@@ -14,7 +14,7 @@
     <div class="row">
           {% for post in site.categories.art reversed limit: 12 %}
             {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
-                {% if blogDate >= currentDate %}
+
             <div class="col-md-4 post">
                 <a href="{{ post.url | prepend: site.github.url }}">
                   <div class="post-preview" style="background-image:url({{site.github.url}}/img/{{post.image}});">
@@ -34,18 +34,17 @@
                   </div>
 
 
-       {% endif %}
 
 {% endfor %}
                 </div>
-                
-    
+
+
   </div>
 
 <!-- Art and culture section-->
 
-
-  <div id="menu1" class="tab-pane fade">
+<!-- 
+  <div id="menu1" class="tab-pane fade in active">
       <div class="row">
           {% for post in site.categories.art reversed limit: 12 %}
             {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
@@ -73,7 +72,7 @@
 
 {% endfor %}
                 </div>
-                </div>
+                </div> -->
 
  <!-- End of art and culture section -->
 
@@ -114,13 +113,13 @@
        {% endif %}
 
 {% endfor %}
-    
+
 
   </div>
   </div>
 
 
-  <!-- End of the music section --> 
+  <!-- End of the music section -->
 
 
   <!-- Start of the business section -->
@@ -196,15 +195,15 @@
        {% endif %}
 
 {% endfor %}
-    
+
   </div>
 
 
- <!-- End of the Sports Section --> 
+ <!-- End of the Sports Section -->
 
 
  <!-- Start of the music section -->
-  
+
   <div id="menu5" class="tab-pane fade">
     <div class="row">
 
@@ -287,7 +286,7 @@
 </div>
 -->
 
-    
+
   </div>
 
 </div>

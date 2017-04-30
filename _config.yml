@@ -20,3 +20,5 @@ description: fata gahunda with upkigali
 url: http://upkigali.com
 markdown: kramdown
 future: true
+exclude:
+- README.md
