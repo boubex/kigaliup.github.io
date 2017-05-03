@@ -131,8 +131,9 @@ background-color:  #286090;
 
   .mobile{
     display: block !important;
-    min-height: 150px;
+    
     padding-top: 0 !important;
+    max-height: 20px;
   }
 
   .mobile img{
@@ -148,17 +149,22 @@ background-color:  #286090;
   border: none !important;
   }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 667px){
   .mobile{
-    min-height: 100px;
+    
     padding-bottom: 5px;
+    max-height: 100%;
+    min-height: 100px;
+    
   }
 }
 
 @media only screen and (max-width: 400px){
   .mobile{
-    min-height: 200px;
+ 
     padding-bottom: 5px;
+    max-height: 100%;
+    min-height: 150px;
   }
 }
 .btn{
