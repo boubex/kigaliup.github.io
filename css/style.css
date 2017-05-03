@@ -60,12 +60,19 @@ h1, h2, h3, h4, h5, h6{
   background-position: center center;
   clear:both;
   position:relative;
+
+
 }
 
 .jumbotron .text-container{
   margin-left: auto;
   margin-right:auto;
   margin-top: 150px;
+
+}
+
+.text-container{
+  padding-top: 60px;
 }
 
 .home{

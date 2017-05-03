@@ -8,13 +8,14 @@ image: header_cover.jpg
    {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
 <header class="jumbotron large-feature">
   <div class="text-container">
-
+  
+{% include search.html %}
 </div>
 
 
 </header>
 
-{% include search.html %}
+
 
 <div class="row homepage">
   <div class="col-md-12 posts-wrap">
