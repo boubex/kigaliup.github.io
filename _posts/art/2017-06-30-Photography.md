@@ -1,5 +1,5 @@
 ---
-title: Photography Exhibition" Iam a Survivor " by Jacques Nkinzingabo
+title: Photography Exhibition Iam a Survivor  by Jacques Nkinzingabo
 date: 2017-06-30 00:00:00 Z
 categories:
 - art
@@ -7,6 +7,7 @@ layout: post
 future: true
 subtitle:
 image: bruv.png
+subtitle:
 width: 4
 label: highlight
 priority: top
