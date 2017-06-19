@@ -5,7 +5,7 @@ categories:
 - art
 layout: post
 future: true
-subtitle:
+subtitle: 
 image: Survivortt.jpg
 width: 4
 label: highlight
