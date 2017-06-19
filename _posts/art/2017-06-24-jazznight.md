@@ -4,7 +4,7 @@ date: 2017-06-24 00:00:00 Z
 categories:
 - art
 layout: post
-subtitle:
+subtitle: 
 image: jnight.jpg
 comments: true;
 ---
