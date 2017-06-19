@@ -5,9 +5,8 @@ categories:
 - art
 layout: post
 future: true
-subtitle:
+subtitle: 
 image: bruv.png
-subtitle:
 width: 4
 label: highlight
 priority: top
