@@ -6,7 +6,7 @@ categories:
 layout: post
 future: true
 subtitle:
-image: Survivor.jpg
+image: Survivortt.jpg
 width: 4
 label: highlight
 priority: top
